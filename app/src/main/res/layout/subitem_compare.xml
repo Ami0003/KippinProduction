@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_gift"
+            android:layout_width="0dp"
+            android:layout_weight="2.2"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:scaleType="fitXY"
+            android:paddingLeft="20dp"
+            android:layout_height="120dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:ellipsize="end"/>
+
+
+            <TextView
+                android:id="@+id/txt_giftCardCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+
+                android:gravity="center_horizontal"
+                android:textStyle="normal"
+
+                android:ellipsize="end"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

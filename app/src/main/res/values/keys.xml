@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_dev">AIzaSyCnq-3aTZBbWZHwnmd53eBzwxvhuyn4B-o</string>
+    <string name="key_testing">AIzaSyAe0TfLs1yvhmAOAAOM5bu0sOIEJq9PFpY</string>
+    <string name="serverkey">AIzaSyAnu_MtIze-68kLWQ94t3V1T78PM1-x6sY</string>
+    <string name="serverkey1">AIzaSyBSiOFCcTEJZKOPyb6g3TFuRj4zE3iCx4s</string>
+    <string name="server_google_map">AIzaSyDw_FTk4mZ8b4WyPi2u5M15ohvEpFAJHyM</string>
+
+
+
+
+    <!--  dev key    AIzaSyCnq-3aTZBbWZHwnmd53eBzwxvhuyn4B-o -->
+    <!-- tester key        AIzaSyAe0TfLs1yvhmAOAAOM5bu0sOIEJq9PFpY -->
+    <!-- AIzaSyBPoZqsEcz_ipfrIUrxhMKBhJm6s7iYhlk -->
+</resources>

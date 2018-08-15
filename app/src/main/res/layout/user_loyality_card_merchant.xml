@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context="com.kippinretail.MyPoint_UserLoyalityCardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fdfaf7f7"
+        android:orientation="vertical">
+        <!-- ===========HEADER SECTION=================== -->
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff">
+
+            <RelativeLayout
+                android:id="@+id/backArrowLayout"
+                android:layout_width="50dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/arrow_l" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txtLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/header">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/frontImageOfCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:maxLines="1"
+                    android:text="FRONT IMAGE OF CARD"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/frontImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/card_front"
+                    android:layout_below="@+id/frontImageOfCard"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_below="@+id/frontImage"
+                    android:id="@+id/backImageOfCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:maxLines="1"
+                    android:text="BACK IMAGE OF CARD"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/backImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/card_back"
+                    android:layout_below="@+id/backImageOfCard"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignBottom="@+id/frontImage"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/ivBarcode"
+                    android:scaleType="fitXY"
+                    android:layout_marginTop="50dp"
+                    android:layout_alignTop="@+id/backImage"
+                    android:layout_alignLeft="@+id/tvName"
+                    android:layout_alignStart="@+id/tvName" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvPunches"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/ivBarcode"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

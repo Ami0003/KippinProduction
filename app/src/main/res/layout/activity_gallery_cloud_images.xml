@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <!-- ===========HEADER SECTION=================== -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTopbarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/connection_topbar_size"
+
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/app_heading_color"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:id="@+id/lalayout_ivBack"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:clickable="true"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="@dimen/dp_33"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_l" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_ivHome"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:clickable="true"
+            android:visibility="visible"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:padding="3dp"
+                android:src="@drawable/home" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--=============== SEARCH AREA ===========================-->
+    <RelativeLayout
+        android:id="@+id/layout_container_search"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/headerDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/black">
+
+        </View>
+        <RelativeLayout
+            android:id="@+id/layout_search"
+            android:layout_below="@+id/headerDivider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/drawable_edittext"
+            >
+
+            <EditText
+                android:id="@+id/txtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Search here"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:singleLine="true"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+                android:textColor="@color/black"
+                android:imeOptions="actionSearch"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imageview_search"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="11dp"
+                android:src="@drawable/search" />
+        </RelativeLayout>
+        <View
+            android:id="@+id/listDivider"
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+            android:background="@color/black"
+            android:layout_below="@+id/layout_search">
+        </View>
+    </RelativeLayout>
+
+
+    <GridView
+        android:id="@+id/gvImages"
+        android:numColumns="2"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:horizontalSpacing="@dimen/dp_20"
+        android:verticalSpacing="@dimen/dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </GridView>
+
+</LinearLayout>

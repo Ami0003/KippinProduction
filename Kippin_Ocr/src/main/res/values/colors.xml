@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B79BF</color>
+    <color name="colorPrimaryDark">#1B79BF</color>
+    <color name="colorAccent">#E53D3C</color>
+    <color name="login_bg">#F5F5F5</color>
+    <color name="text_color">#3195db</color>
+    <color name="dark_gray">#e4e0e0</color>
+    <color name="more_dark_gray">#696969</color>
+    <color name="account_wallet_bg">#F5F5F5</color>
+    <color name="holo_red_light">#E53D3C</color>
+    <color name="background_dashboard" >#FFFFFF</color>
+    <color name="background_kpin_acc" >#3498DB</color>
+    <color name="background_kpin_wallets" >#E53D3C</color>
+    <color name="light_blue_color">#6495ed</color>
+    <color name="border_edittext">#E0E0E0</color>
+    <color name="light_grey">#8e9b9b9b</color>
+    <color name="black">#000000</color>
+    <!-- KIPPIN- ACCOUNT-->
+    <color name="kippin_back_selector_top" >#f5f5f5</color>
+    <color name="kippin_color_item_bank_selection" >#CECDD1</color>
+
+
+    <!-- Select CashBillDate-->
+    <color name="select_date_et" >#C7C7CD</color>
+
+    <!-- Bank Statement-->
+    <color name="bank_statement_headers" >#3275B5</color>
+    <color name="bank_statement_even_items" >#F5F5F5</color>
+    <color name="classification_hint">#EDEDED</color>
+    <color name="classification_color_divider">#C8C8C8</color>
+
+    <!-- Select Month-->
+    <color name="select_month_item_unselected">#FFFFFF</color>
+    <color name="select_month_item_selected">#666666</color>
+    <color name="dialog_background">#FFF2F1F1</color>
+    <color name="white">#ffffff</color>
+    <color name="b_onclick1">#CE2C1A</color>
+    <color name="b_click1">#E74C3C</color>
+
+
+</resources>

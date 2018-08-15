@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView  xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/bank_statement_headers"
+android:layout_width="@dimen/bank_statement_element_width"
+android:layout_height="52.50dp"
+android:layout_gravity="left"
+android:background="#3275B5"
+android:gravity="center"
+android:text="Date" />

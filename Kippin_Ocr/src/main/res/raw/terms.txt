@@ -1,0 +1,198 @@
+<h2>
+    TERMS OF USE
+</h2>
+<h2>
+</h2>
+<h2>
+    Acceptance
+</h2>
+<p>
+    By using any Kippin-related software, including our application on any operating system, or by using or visiting the Website (collectively the "Website
+    Service"), you agree to both these Terms and Conditions ("Terms of Use") and the Terms and Conditions of the Kippin Privacy Policy, which are incorporated
+    herein by reference. If you do not agree to any of these terms, please do not use the Kippin Website Service. These Terms of Use apply to all users of the
+    Kippin Website Service, including users who are contributors of video content, information, and other materials or services on the Website.
+</p>
+<p>
+    Stripe
+</p>
+<p>
+    At Kippin are proud to provide the Merchant Services of Stripe. When using Merchant Services at Kippin you are required to adhere to the Terms of Service
+    of Stripe. Stripe Terms of Service supersede that of Kippin. Stripe terms and conditions are located at https://stripe.com/ca/terms
+</p>
+<h2>
+</h2>
+<h2>
+    Website Access
+</h2>
+<p>
+    Kippin hereby grants you permission to use the Website Service in accordance with these Terms of Use, provided that:
+</p>
+<p>
+    1) your use of the Website Service is solely for your personal use;
+</p>
+<p>
+    2) you will not copy or distribute any part of the Website Service in any medium or manner inconsistent with these Terms of Use without Kippin's prior
+    written consent;
+</p>
+<p>
+    3) you will not alter or modify any part of the Website Service other than as may be reasonably necessary to use the Website Service for its intended
+    purpose; and
+</p>
+<p>
+    4) you will otherwise comply with these Terms of Use.
+</p>
+<p>
+    In order to access some features of the Website Service, you will have to create an account. You may never use another's account without permission. When
+    creating your account, you must provide accurate and complete information. You are solely responsible for the activity that occurs on your account, and you
+    must keep your account password secure. You must notify Kippin immediately of any breach of security or unauthorized use of your account. Although Kippin
+    will not be liable for your losses caused by any unauthorized use of your account, you may be liable for the losses of Kippin or others due to such
+    unauthorized use.
+</p>
+<p>
+    Kippin reserves the right to establish data transfer restrictions and/or limit the total amount of data transfer associated with your account. User
+    accounts may be closed by Kippin should the total amount of data transfer exceed an amount deemed excessive in Kippin&#8217;s sole discretion.
+</p>
+<p>
+    You agree not to use or launch any automated system, including without limitation, "robots," "spiders," "offline readers," etc., that accesses the Website
+    Service in a manner that sends more request messages to the Kippin servers in a given period of time than a human can reasonably produce in the same period
+    by using a conventional on-line web browser. Notwithstanding the foregoing, Kippin grants the operators of public search engines permission to use spiders
+    to copy materials from the site for the sole purpose of creating publicly available searchable indices of the materials, but not caches or archives of such
+    materials. Kippin reserves the right to revoke these exceptions either generally or in specific cases. You agree not to collect or harvest any personally
+    identifiable information, including account names, from the Website.
+</p>
+<p>
+    In order to post or publish User Submissions on the Website, you will be required to encode your media data by downloading and installing the Kippin
+    software. For these limited purposes only, you are hereby granted a revocable non-exclusive licence to use the Kippin software for the sole purpose of
+    encoding digital audiovisual material in order to create User Submissions for the Website. Kippin makes no warranty concerning the functionality of the
+    Kippin software on any individual computer and expressly disclaims any and all liability for any problem which may be caused to your computer or damage of
+    any kind incurred by you resulting from your use of the Kippin software. You hereby waive any legal or equitable rights or remedies you may have against
+    Kippin with respect to your use thereof.
+</p>
+<h2>
+    Intellectual Property Rights
+</h2>
+<p>
+    The content on the Kippin Website, except for User Submissions, including the text, software, scripts, graphics, photos, sounds, music, videos, and
+    interactive features ("Content") and the trademarks, trade names, service marks and logos contained therein ("Marks"), are owned by or licensed to Kippin,
+    subject to copyright and other intellectual property rights under Canadian law and international conventions. Content on the Website is provided to you AS
+    IS for your information and personal use only and may not be used, copied, reproduced, distributed, transmitted, broadcast, displayed, sold, licensed, or
+    otherwise exploited for any other purposes whatsoever without prior written consent and/or payment of the applicable licence fee to the owners. Kippin
+    reserves all rights not expressly granted in and to the Website Service and the Content. You agree not to engage in the use, copying, or distribution of
+    any of the Content other than expressly permitted herein, including any use, copying, or distribution of User Submissions of third parties obtained through
+    the Website. You agree not to circumvent, disable or otherwise interfere with security related features of the Kippin Website or features that prevent or
+    restrict use or copying of any Content or enforce limitations on use of the Kippin Website or the Content therein.
+</p>
+<h2>
+    User Submissions
+</h2>
+<p>
+    The Kippin Website Service may permit the submission of videos or other communications submitted by you and other users ("User Submissions") and the
+    hosting, sharing, and publishing of such User Submissions. Kippin may also establish categories for User Submissions based on intended use, such as Private
+    where User Submissions are not shared, Invited where there is an invitation to view and/or share and Public. You understand that whether or not such User
+    Submissions are published and regardless of category, Kippin does not guarantee any confidentiality with respect to any such submissions. You also
+    understand and agree that Kippin may place advertising on the Website in conjunction with User Submissions.
+</p>
+<p>
+    You are solely responsible for your own User Submissions and the consequences of posting or publishing them. For all User Submissions you submit which are
+    intended for public use, you represent and warrant that:
+</p>
+<p>
+    1) you own or have the necessary licenses, rights, consents, and permissions to use and authorize Kippin to use all copyright, trademark, trade name,
+    service mark, logos and intellectual property and other proprietary rights in and to any and all User Submissions to enable inclusion and use of the User
+    Submissions in the manner contemplated by the Website Service and these Terms of Use; and
+</p>
+<p>
+    2) you have the written consent, release or permission of each and every identifiable individual person in the User Submission to use their name or
+    likeness to enable inclusion and use of the User Submissions in the manner contemplated by the Website Service and these Terms of Use. You retain all of
+    your ownership rights in your User Submissions. However, by submitting the User Submissions to Kippin for public use, you hereby grant Kippin a worldwide,
+    non-exclusive, royalty-free, transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the User Submissions in
+    connection with the Kippin Website Service and Kippin 's business, including without limitation for promotion and redistribution of part or all of the
+    Kippin Website Service (and derivative works thereof) in any media formats and through any media channels. You also hereby grant each user of the Kippin
+    Website a non-exclusive license to access your User Submissions, if submitted for public use, through the Website, and to use, reproduce, distribute,
+    prepare derivative works of, display and perform such User Submissions as permitted through the functionality of the Website Service and under these Terms
+    of Use.
+</p>
+<p>
+    For User Submissions you submit, you further agree that you will not:
+</p>
+<p>
+    1) submit material that is copyrighted, protected by trade mark or otherwise subject to third party proprietary rights, including privacy and publicity
+    rights, unless you are the owner of such rights or have permission from their rightful owner to post the material and to grant Kippin all of the license
+    rights granted herein;
+</p>
+<p>
+    2) publish falsehoods or misrepresentations that could damage Kippin or any third party;
+</p>
+<p>
+    3) (iii) submit material that is unlawful, obscene, defamatory, libellous, threatening, pornographic, harassing, hateful, racially or ethnically offensive,
+    or encourages conduct that would be considered a criminal offence, give rise to civil liability, violate any law, or is otherwise inappropriate;
+</p>
+<p>
+    4) post advertisements or solicitations of business:
+</p>
+<p>
+    5) (v) impersonate another person.
+</p>
+<p>
+    Kippin does not endorse any User Submission or any opinion, recommendation, or advice expressed therein, and Kippin expressly disclaims any and all
+    liability in connection with User Submissions. Kippin will remove all Content and User Submissions if properly notified that such Content or User
+    Submission infringes another's intellectual property rights. Kippin also has sole discretion to decide whether Content or a User Submission is appropriate
+    and complies with these Terms of Use as concerns pornography, obscene or defamatory material, or excessive length. Kippin reserves the right to remove
+    Content and User Submissions without prior notice and to terminate a User's access to the Website Service, if such User is in violation of these Terms of
+    Use. Kippin reserves the right to discontinue any aspect of the Kippin Website Service at any time.
+</p>
+<p>
+    You understand that when using the Kippin Website Service, you will be exposed to User Submissions from a variety of sources, and that Kippin is not
+    responsible for and makes no warranties concerning the accuracy, usefulness, safety, or intellectual property rights of or relating to such User
+    Submissions. You further understand and acknowledge that you may be exposed to User Submissions that are inaccurate, offensive, indecent, or objectionable,
+    and you hereby waive any legal or equitable rights or remedies you may have against Kippin with respect thereto.
+</p>
+<h2>
+    Third Party Websites
+</h2>
+<p>
+    The Kippin Website may contain links to third party websites that are not owned or controlled by Kippin and Kippin assumes no responsibility for these
+    third party websites. By using the Website, you expressly discharge Kippin from any and all liability arising from your use of any third-party website.
+</p>
+<h2>
+    Warranty and Indemnity
+</h2>
+<p>
+    You agree that your use of the Kippin Website Service is at your sole risk. Kippin makes no warranty concerning bugs, viruses, Trojan horses or similar
+    problems which may be transmitted to or through the Website Service by any third party, or concerning damage of any kind incurred resulting from use of the
+    Website Service. Kippin does not endorse and is not responsible for any product or service advertised or offered by a third party through the Website
+    Service or any hyper-linked website.
+</p>
+<p>
+    In no event shall Kippin, its officers, directors, employees or agents be liable to you for any direct, indirect, incidental, special, punitive or
+    consequential damages resulting from any claim, injury or damage incurred by you from your use of the Website, Content or Kippin software.
+</p>
+<p>
+    You agree to defend, indemnify and hold harmless Kippin its officers, directors, employees and agents, from and against any and all claims, damages,
+    obligations, losses, liabilities, costs or debt, and expenses (including but not limited to legal fees) arising from:
+</p>
+<p>
+    1) your use of and access to the Kippin Website Service;
+</p>
+<p>
+    2) your violation of any aspect of these Terms of Use;
+</p>
+<p>
+    3) your violation of any third party right, including without limitation any copyright, property, or privacy right; or
+</p>
+<p>
+    4) any claim that one of your User Submissions caused damage to a third party. This defence and indemnification obligation will survive these Terms of Use
+    and your use of the Kippin Website Service.
+</p>
+<h2>
+    General
+</h2>
+<p>
+    You confirm that you are either at least 18 years of age, or possess legal parental or guardian consent, and are fully able to enter into the terms,
+    conditions, obligations, representations, and warranties described in these Terms of Use, and to abide by and comply with them.
+</p>
+<p>
+    You agree that the Kippin Website shall be deemed solely based in Ontario, Canada and that these Terms of Use shall be governed by the laws of the Province
+    of Ontario, Canada whose courts shall have exclusive jurisdiction. You agree that any cause of action in relation to the Kippin Website Service must be
+    commenced within one (1) year after the cause of action accrues, or such cause of action is permanently barred.
+</p>

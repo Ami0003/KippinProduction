@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="10dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layoutOfSubItem"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="1dp"
+        >
+       <!-- <ImageView
+            android:id="@+id/imageviewMyPoint"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/dialog_logo" />-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageviewMyPoint"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            app:civ_border_color="@color/blue"
+            app:civ_border_width="2.0dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/dialog_logo" />
+        <TextView
+            android:id="@+id/txtMerchant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:layout_toRightOf="@+id/imageviewMyPoint"
+            android:layout_toLeftOf="@+id/iv_star"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+             />
+
+        <ImageView
+            android:id="@+id/iv_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/icon_astrik"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

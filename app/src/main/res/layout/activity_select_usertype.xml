@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/lllYOUT"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="vertical"
+                android:paddingBottom="2dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip">
+
+                <ImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_marginLeft="@dimen/dp_32_5"
+                    android:layout_marginRight="@dimen/dp_32_5"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/wallet_logo" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lllYOUT"
+                android:gravity="center_horizontal|center"
+                android:text="@string/uts_info"
+                android:textColor="@color/black"
+                android:textSize="@dimen/lmc_text_size" />
+
+            <ImageView
+                android:id="@+id/userLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/reconcile_block_height"
+                android:layout_below="@+id/titleText"
+                android:layout_marginLeft="@dimen/reconcile_margin_LR"
+                android:layout_marginRight="@dimen/reconcile_margin_LR"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:src="@drawable/horizontal_user">
+
+                <!--<ImageView
+                    android:id="@+id/ivCartPetsmart"
+                    android:layout_width="@dimen/lmc_width"
+                    android:layout_height="@dimen/lmc_height"
+                    android:layout_margin="@dimen/twenty_dp"
+                    android:src="@drawable/user_icon1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/arrow_pest_mart"
+                    android:layout_toRightOf="@+id/ivCartPetsmart"
+                    android:text="@string/user_reward"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/lmc_text_size"
+                    android:textStyle="normal" />
+
+
+                <ImageView
+                    android:id="@+id/arrow_pest_mart"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/fifteen_dp"
+                    android:src="@drawable/arrow" />-->
+
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/merchantLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/reconcile_block_height"
+                android:layout_below="@+id/charityLayout"
+                android:layout_marginLeft="@dimen/reconcile_margin_LR"
+                android:layout_marginRight="@dimen/reconcile_margin_LR"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/horizontal_merchant">
+
+                <!--<ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="@dimen/lmc_width"
+                    android:layout_height="@dimen/lmc_height"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/twenty_dp"
+                    android:src="@drawable/merchant_icon" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/arrow_best_buy"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:text="@string/merchant"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/lmc_text_size"
+                    android:textStyle="normal" />
+
+
+                <ImageView
+                    android:id="@+id/arrow_best_buy"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/fifteen_dp"
+                    android:src="@drawable/arrow" />-->
+
+            </ImageView>
+
+
+            <ImageView
+                android:id="@+id/charityLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/reconcile_block_height"
+                android:layout_below="@+id/userLayout"
+                android:layout_marginLeft="@dimen/reconcile_margin_LR"
+                android:layout_marginRight="@dimen/reconcile_margin_LR"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:src="@drawable/horizontal_charity">
+
+                <!--<ImageView
+                    android:id="@+id/imageView_charity"
+                    android:layout_width="@dimen/lmc_width"
+                    android:layout_height="@dimen/lmc_height"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/twenty_dp"
+                    android:src="@drawable/icon_charity" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/arrow_ch_buy"
+                    android:layout_toRightOf="@+id/imageView_charity"
+                    android:text="@string/charity"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/lmc_text_size"
+                    android:textStyle="normal" />
+
+
+                <ImageView
+                    android:id="@+id/arrow_ch_buy"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/fifteen_dp"
+                    android:src="@drawable/arrow" />-->
+
+            </ImageView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

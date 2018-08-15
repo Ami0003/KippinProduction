@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+     android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:minWidth="250dp"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/roundwhite"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/login_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/kippin"
+            android:visibility="gone"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/kippin_title"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/text_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+
+            android:layout_marginTop="8dp"
+            android:textColor="@color/more_dark_gray"
+            android:textSize="@dimen/size_more" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/both_bottom_corner"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/ok"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/size_more"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></View>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/template_image"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/image_height"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/select"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Choose number of punches" />
+
+
+    <ListView
+        android:id="@+id/spList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:paddingLeft="0dp" />
+
+    <EditText
+        android:id="@+id/edDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:gravity="top"
+        android:hint="Enter Description"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/activatePunchCardButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/twenty_dp"
+        android:background="@drawable/background_button"
+        android:padding="10dp"
+        android:text="ACTIVATE PUNCH CARD"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/twenty_dp" />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/kippin_acc_bank_selection_height"
+        android:background="@color/kippin_back_selector_top"
+        android:paddingLeft="@dimen/kippin_acc_bank_padding_lr"
+        android:paddingRight="@dimen/kippin_acc_bank_padding_lr">
+
+
+        <TextView
+            android:id="@+id/tvSelectBank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/select_type"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/kippin_acc_bank_ts_title" />
+
+        <TextView
+            android:id="@+id/spSelectBankText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/kippin_acc_bank_selector_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_toRightOf="@+id/tvSelectBank"
+            android:background="@drawable/dropdown_input"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="Please Select" />
+
+        <com.kippin.connectedbankacc.CustomSpinner
+            android:id="@+id/spSelectBank"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/kippin_acc_bank_selector_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_toRightOf="@+id/tvSelectBank"
+            android:background="@drawable/dropdown_input"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvBanks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:overScrollMode="never" />
+
+    <TextView
+        android:id="@+id/ivAddCashEntry"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/x_add_cash_entry_blue"
+        android:clickable="true"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/ivViewCashEntry"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/view_cash_entry_blue"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>

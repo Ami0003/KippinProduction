@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d9efe8e8"
+        android:orientation="vertical">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:id="@+id/fragment"
+            />
+        <ScrollView
+            android:layout_below="@+id/fragment"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/template_image"
+                android:layout_width="300dp"
+                android:layout_height="@dimen/image_height"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white"
+                android:scaleType="fitCenter" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:background="#d9efe8e8"
+                android:gravity="center">
+
+                <com.kippinretail.wheel.WheelView
+                    android:id="@+id/slot_1"
+                    android:layout_width="350dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/activateGiftCardButton"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="@dimen/twenty_dp"
+                android:layout_marginLeft="@dimen/twenty_dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:elevation="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+               android:layout_gravity="center_horizontal"
+                android:text="ACTIVATE GIFT CARD"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/twenty_dp" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d9efe8e8"
+        android:orientation="vertical">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:id="@+id/fragment"
+            android:layout_marginBottom="@dimen/dp_16"
+            />
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+           android:layout_below="@+id/fragment"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="@dimen/icon_addemp_width"
+                    android:layout_height="@dimen/icon_addemp_width"
+                    android:layout_alignBottom="@+id/tempText"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="-50dp"
+                    android:background="@drawable/x_camera_thik_copy"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Insert Employee Number and registered KIPPIN email address. Employee will have the ability to issue points on behalf of merchant"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/employeeIdEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/e_height"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/edittext_background"
+                    android:completionThreshold="1"
+                    android:hint="Employee number"
+                    android:maxLength="19"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/emailEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/e_height"
+                    android:layout_centerHorizontal="true"
+                   android:layout_marginBottom="15dp"
+                    android:background="@drawable/edittext_background"
+                    android:completionThreshold="1"
+                    android:hint="Type in user's email to make him employee"
+                    android:paddingLeft="10dp"
+                    android:lines="1"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="14dp" />
+                <!--  android:id="@+id/searchUserEditText"
+                  android:layout_width="fill_parent"
+                  android:layout_height="@dimen/e_height"
+                  android:layout_margin="20dp"
+                  android:background="@drawable/edittext_background"
+                  android:hint="Search User"
+                  android:paddingLeft="10dp"
+                  android:singleLine="true"
+                  android:textColor="@color/black"
+                  android:textColorHint="@color/light_grey"
+                  android:textSize="16dp" />-->
+
+
+                <!--  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="@dimen/e_height"
+                      android:layout_margin="10dp"
+                      android:background="@drawable/edittext_background"
+                      android:orientation="horizontal">
+
+                      <ImageView
+                          android:layout_width="@dimen/e_height"
+                          android:layout_height="@dimen/e_height"
+                          android:padding="10dp"
+                          android:src="@drawable/icon_username" />
+
+                      <EditText
+                          android:id="@+id/lastNameEditText"
+                          android:layout_width="fill_parent"
+                          android:layout_height="@dimen/e_height"
+                          android:layout_marginLeft="40dp"
+                          android:background="@null"
+                          android:hint="Last Name"
+                          android:paddingLeft="10dp"
+                          android:singleLine="true"
+                          android:textColor="@color/black"
+                          android:textColorHint="@color/light_grey"
+                          android:textSize="16dp" />
+                  </RelativeLayout>
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="@dimen/e_height"
+                      android:layout_margin="10dp"
+                      android:background="@drawable/edittext_background"
+                      android:orientation="horizontal">
+
+                      <ImageView
+                          android:layout_width="@dimen/e_height"
+                          android:layout_height="@dimen/e_height"
+                          android:padding="10dp"
+                          android:src="@drawable/icon_email" />
+
+                      <EditText
+                          android:id="@+id/emailEditText"
+                          android:layout_width="fill_parent"
+                          android:layout_height="@dimen/e_height"
+                          android:layout_marginLeft="40dp"
+                          android:background="@null"
+                          android:hint="Email Address"
+                          android:paddingLeft="10dp"
+                          android:singleLine="true"
+                          android:textColor="@color/black"
+                          android:textColorHint="@color/light_grey"
+                          android:textSize="16dp" />
+                  </RelativeLayout>-->
+
+                <Button
+                    android:id="@+id/sendKeyToEmployeeButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/x_authorize_blue"
+                    android:elevation="5dp"
+                     />
+
+                <Button
+                    android:id="@+id/btnEmployee"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/x_employees_organge"
+                    android:elevation="5dp"
+                     />
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+            </LinearLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

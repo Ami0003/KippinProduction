@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    android:paddingRight="10dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_myPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <ImageView
+            android:id="@+id/iv_profileImage"
+            android:layout_width="60.00dp"
+            android:layout_height="60.00dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:src="@drawable/addtocart" />
+        <TextView
+            android:id="@+id/txtMerchant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_profileImage"
+            android:text=""
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:textSize="@dimen/btn_text_size" />
+
+        <ToggleButton
+            android:id="@+id/chbMerchant"
+            android:layout_width="@dimen/fifty_dp"
+            android:layout_height="@dimen/thirty_dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/ten_dp"
+            android:background="@drawable/toggle_selector"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textOff=""
+            android:textOn="" />
+        </RelativeLayout>
+
+</RelativeLayout>

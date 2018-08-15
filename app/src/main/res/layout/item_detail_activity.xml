@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/fragment"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_5">
+
+                        <EditText
+                            android:id="@+id/etItemNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:background="@drawable/edittext_background"
+                            android:gravity="center_vertical"
+                            android:hint="Item #"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/light_grey"
+                            android:textSize="@dimen/sixteen_dp" />
+
+                        <TextView
+                            android:id="@+id/tvStarItem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="@dimen/dp_5"
+                            android:text="*"
+                            android:textSize="@dimen/dp_18" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rlSpinnerLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/layTypesofGoods"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvServiceProductType"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_background"
+                                android:clickable="true"
+                                android:gravity="center_vertical"
+                                android:hint="Service or Product type"
+                                android:inputType="textEmailAddress"
+                                android:paddingLeft="@dimen/ten_dp"
+                                android:paddingRight="@dimen/dp_10"
+                                android:textColorHint="@android:color/darker_gray"
+                                android:textSize="@dimen/fab_margin" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="top|center_horizontal"
+                                android:paddingLeft="5dp"
+                                android:text="*"
+                                android:textSize="@dimen/dp_18" />
+
+                        </LinearLayout>
+
+                        <Spinner
+                            android:id="@+id/spinnerProductTyoe"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:dropDownWidth="265dp"
+                            android:scrollbars="none" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/etDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:background="@drawable/edittext_background"
+                            android:hint="Description"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/light_grey"
+                            android:textSize="@dimen/sixteen_dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="@dimen/dp_5"
+                            android:text="*"
+                            android:textSize="@dimen/dp_18" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_5">
+
+                        <EditText
+                            android:id="@+id/etQuantityHours"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:background="@drawable/edittext_background"
+                            android:gravity="center_vertical"
+                            android:hint="Quantity/Hours"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxEms="7"
+                            android:maxLength="7"
+                            android:text=""
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/light_grey"
+                            android:textSize="@dimen/sixteen_dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="@dimen/dp_5"
+                            android:text="*"
+                            android:textSize="@dimen/dp_18" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_5">
+
+                        <EditText
+                            android:id="@+id/etRate"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:background="@drawable/edittext_background"
+                            android:hint="Rate"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxEms="7"
+                            android:maxLength="7"
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/light_grey"
+                            android:textSize="@dimen/sixteen_dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="@dimen/dp_5"
+                            android:text="*"
+                            android:textSize="@dimen/dp_18" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tvAmountRate"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginRight="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:layout_toLeftOf="@+id/tvStar3"
+                        android:background="@drawable/edittext_background"
+                        android:gravity="center_vertical"
+                        android:hint="Amount(Quanity * Rate)"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/ten_dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/sixteen_dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/etDiscountAmount"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:layout_toLeftOf="@+id/tvOr"
+                            android:layout_weight="1"
+                            android:background="@drawable/edittext_background"
+                            android:hint="Discount Amt"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/light_grey"
+                            android:textSize="@dimen/sixteen_dp" />
+
+                        <TextView
+                            android:id="@+id/tvOr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:gravity="center_vertical"
+                            android:text="or"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sixteen_dp" />
+
+                        <EditText
+                            android:id="@+id/etDiscountPercentage"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:layout_toRightOf="@+id/tvOr"
+                            android:layout_weight="1"
+                            android:background="@drawable/edittext_background"
+                            android:hint="Discount %"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/light_grey"
+                            android:textSize="@dimen/sixteen_dp" />
+
+                        <TextView
+                            android:id="@+id/tvStar1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="@dimen/dp_5"
+                            android:text="*"
+                            android:textSize="@dimen/dp_18"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/taxLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/etTax"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:layout_toLeftOf="@+id/tvOrTAX"
+                            android:layout_weight="1"
+                            android:background="@drawable/edittext_background"
+                            android:hint="Tax Amt"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/light_grey"
+                            android:textSize="@dimen/sixteen_dp" />
+
+                        <TextView
+                            android:id="@+id/tvOrTAX"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:gravity="center_vertical"
+                            android:text="or"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sixteen_dp" />
+
+                        <EditText
+                            android:id="@+id/etTaxPercentage"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:layout_toRightOf="@+id/tvOrTAX"
+                            android:layout_weight="1"
+                            android:background="@drawable/edittext_background"
+                            android:hint="Tax %"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/light_grey"
+                            android:textSize="@dimen/sixteen_dp" />
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/llTaxTypeLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/etGST"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_toLeftOf="@+id/tvOrEST"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_background"
+                                android:hint="GST Tax Amt"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/ten_dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/light_grey"
+                                android:textSize="@dimen/sixteen_dp" />
+
+                            <TextView
+                                android:id="@+id/tvOrEST"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:gravity="center_vertical"
+                                android:text="or"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/sixteen_dp" />
+
+                            <EditText
+                                android:id="@+id/etGSTPercentage"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_toRightOf="@+id/tvOrEST"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_background"
+                                android:hint="GST Tax %"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/ten_dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/light_grey"
+                                android:textSize="@dimen/sixteen_dp" />
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/etQST"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_toLeftOf="@+id/tvOrQST"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_background"
+                                android:hint="QST Tax Amt"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/ten_dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/light_grey"
+                                android:textSize="@dimen/sixteen_dp" />
+
+                            <TextView
+                                android:id="@+id/tvOrQST"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:gravity="center_vertical"
+                                android:text="or"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/sixteen_dp" />
+
+                            <EditText
+                                android:id="@+id/etQSTPercentage"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_toRightOf="@+id/tvOrQST"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_background"
+                                android:hint="QST Tax %"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/ten_dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/light_grey"
+                                android:textSize="@dimen/sixteen_dp" />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/etHST"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_toLeftOf="@+id/tvOrHST"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_background"
+                                android:hint="HST Tax Amt"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/ten_dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/light_grey"
+                                android:textSize="@dimen/sixteen_dp" />
+
+                            <TextView
+                                android:id="@+id/tvOrHST"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:gravity="center_vertical"
+                                android:text="or"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/sixteen_dp" />
+
+                            <EditText
+                                android:id="@+id/etHSTPercentage"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_toRightOf="@+id/tvOrHST"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_background"
+                                android:hint="HST Tax %"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/ten_dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/light_grey"
+                                android:textSize="@dimen/sixteen_dp" />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/etPST"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_toLeftOf="@+id/tvOrPST"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_background"
+                                android:hint="PST Tax Amt"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/ten_dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/light_grey"
+                                android:textSize="@dimen/sixteen_dp" />
+
+                            <TextView
+                                android:id="@+id/tvOrPST"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:gravity="center_vertical"
+                                android:text="or"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/sixteen_dp" />
+
+                            <EditText
+                                android:id="@+id/etPSTPercentage"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_toRightOf="@+id/tvOrPST"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_background"
+                                android:hint="PST Tax %"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/ten_dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/light_grey"
+                                android:textSize="@dimen/sixteen_dp" />
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvSubTotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginRight="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:background="@drawable/edittext_background"
+                        android:gravity="center_vertical"
+                        android:hint="Sub-Total"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/ten_dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/sixteen_dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp_10" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#E8E8E8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="* Mandatory Fields"
+                android:textColor="@color/red"
+                android:textSize="@dimen/dp_16"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/red_background"
+                android:gravity="center"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_18"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

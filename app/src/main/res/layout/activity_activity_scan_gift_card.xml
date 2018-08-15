@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kippinretail.ActivityScanGiftCard">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Please Scan Gift Cards"
+        android:layout_below="@+id/fragment"
+        android:textStyle="normal"
+        android:textSize="19dp"
+
+        android:layout_marginTop="28dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txt_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="GIFT CARD SCAN"
+            android:textSize="22dp"
+        android:layout_below="@+id/txt_message"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ScrollView
+        android:layout_below="@+id/txt_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="28dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/btn_ScanGiftCardBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:height="@dimen/dp_35"
+        android:background="#0187D3"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:text="SCAN GIFT CARD BARCODE"
+        android:clickable="true"
+        android:onClick="scanGiftCardBarcode"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/btn_paywithGiftCard"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:height="@dimen/dp_35"
+            android:background="#E79300"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:clickable="true"
+            android:onClick="payWithGiftCard"
+            android:text="PAY WITH GIFT CARD"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:id="@+id/layout_giftCardDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/ed_itemCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:singleLine="true"
+                android:background="@drawable/edittext_background"
+                android:hint="Item Cost"
+                android:inputType="numberDecimal"
+                android:minHeight="@dimen/dp_35"
+                android:paddingLeft="12dp"
+                android:textSize="@dimen/dp_14" />
+
+            <EditText
+                android:id="@+id/ed_referenceNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:singleLine="true"
+                android:background="@drawable/edittext_background"
+                android:hint="Reference/Invoice number"
+                android:minHeight="@dimen/dp_35"
+                android:paddingLeft="12dp"
+                android:textSize="@dimen/dp_14" />
+
+
+            <EditText
+                android:id="@+id/ed_barcodeNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:height="@dimen/dp_35"
+                android:background="@drawable/edittext_background"
+android:singleLine="true"
+                android:hint="Gift Card BardCode"
+                android:minHeight="@dimen/dp_35"
+                android:paddingLeft="12dp"
+                android:textSize="@dimen/dp_14" />
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/btn_chargeGiftCard"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:height="@dimen/dp_35"
+            android:background="#E73628"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:clickable="true"
+            android:onClick="chargeGiftCard"
+            android:text="CHARGE GIFT CARD"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pointsLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/row_layout_height"
+    android:background="#F5F5F5"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    >
+    <!-- ListRow Left side Thumbnail image -->
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="#040404"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/pointsTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/arrow"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/light_grey"
+                android:textSize="16dip"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/grey_arrow"
+                android:gravity="center_vertical" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

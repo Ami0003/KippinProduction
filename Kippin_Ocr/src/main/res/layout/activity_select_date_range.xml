@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dashboard"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:paddingLeft="@dimen/dp_25"
+            android:paddingRight="@dimen/dp_25"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+
+            <ImageView
+                android:layout_width="@dimen/dp_110"
+                android:layout_height="@dimen/dp_110"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:src="@drawable/bank" />
+
+            <TextView
+                android:id="@+id/tvSelectStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_30"
+                android:hint="@string/select_start_date"
+                android:clickable="true"
+                android:onClick="onStartDateClick"
+                android:textColorHint="@color/dark_gray"
+                android:textColor="@android:color/black"
+                style="@style/select_date_et"
+                />
+
+            <TextView
+                android:id="@+id/tvSelectEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_30"
+                android:hint="@string/select_end_date"
+                android:clickable="true"
+                android:onClick="onEndDateClick"
+                android:textColorHint="@color/dark_gray"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/dp_8"
+                style="@style/select_date_et"
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="@dimen/dp_52_5"
+                android:layout_marginTop="@dimen/dp_20"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:background="@drawable/x_next_blue"
+                android:clickable="true"
+                android:onClick="onNextClick"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivNext" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bacground"
+    tools:context="com.kippinretail.ActivityINputManualBarcode">
+    <!-- ===========HEADER SECTION=================== -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTopbarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:text="1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:id="@+id/lalayout_ivBack"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:clickable="true"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="@dimen/dp_33"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_l" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_ivHome"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:clickable="true"
+            android:visibility="visible"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/txt_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:clickable="true"
+                android:onClick="saveLoyaltyCard"
+                android:layout_centerInParent="true"
+                android:padding="3dp"
+
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_cardNo"
+        android:layout_below="@+id/topBar"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/connection_topbar_size"
+        android:text="Card Number"
+        android:layout_centerHorizontal="true"
+       android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        />
+
+    <EditText
+        android:id="@+id/ed_cardNo"
+        android:layout_below="@+id/txt_cardNo"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/ten_dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Card Number"
+        android:inputType="number"
+        android:paddingLeft="3dp"
+        android:digits="0123456789"
+        android:layout_marginLeft="20dp"
+        android:imeActionLabel="Next"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_grey"
+        android:textSize="@dimen/sixteen_dp" />
+</RelativeLayout>

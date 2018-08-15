@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d9efe8e8"
+        android:orientation="vertical">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:id="@+id/fragment"
+            />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/topheader_height">
+
+            <RelativeLayout
+                android:id="@+id/fromDateRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/date_bg">
+
+                <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/fromDateImageView"
+                    android:scrollbars="none">
+
+                    <TextView
+                        android:id="@+id/fromDateTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:hint="From Date"
+                        android:paddingLeft="5dp"
+                        android:ellipsize="end"
+                        android:scrollHorizontally="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="#CCCCCC"
+                        android:textSize="16dp"
+
+                        android:textStyle="normal" />
+                </HorizontalScrollView>
+
+                <ImageView
+                    android:id="@+id/fromDateImageView"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_calander" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/toDateRelativeLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/date_bg">
+
+                <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/toDateImageView"
+                    android:scrollbars="none">
+
+                    <TextView
+                        android:id="@+id/toDateTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:hint="To Date"
+                        android:ellipsize="end"
+                        android:padding="5dp"
+                        android:scrollHorizontally="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="#CCCCCC"
+                        android:textSize="16dp"
+                        android:textStyle="normal"
+
+                        />
+                </HorizontalScrollView>
+
+                <ImageView
+                    android:id="@+id/toDateImageView"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_calander" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center|center_vertical"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical">
+
+                <Button
+                    android:id="@+id/searchButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/rect_button_background"
+                    android:elevation="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Search"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_title"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:padding="10dp"
+                android:text="Date"
+                android:gravity="center_horizontal|left"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:padding="10dp"
+                android:singleLine="false"
+                android:text="Points"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="false"
+                android:padding="10dp"
+                android:text="Emp no."
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:singleLine="false"
+                android:text="Invoice no."
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:singleLine="false"
+                android:text="Activity"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listForPoints"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></ListView>
+    </LinearLayout>
+</LinearLayout>

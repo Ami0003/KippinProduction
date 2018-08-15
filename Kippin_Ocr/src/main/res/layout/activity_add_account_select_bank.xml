@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dashboard"
+    tools:context="com.automaticStatement.ActivityAddAccountSelectBank">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+        <WebView
+            android:id="@+id/webViewAddAccount"
+            android:layout_below="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/fragment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/ivRbc"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/rbc_1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ivRbc"
+                android:background="#777777" />
+
+            <ImageView
+                android:id="@+id/ivScotia"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/ivRbc"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/scotia_1" />
+
+            <View
+                android:id="@+id/lineScotia"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ivScotia"
+                android:background="#777777" />
+
+            <ImageView
+                android:id="@+id/ivBmo"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/lineScotia"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/bmo_1" />
+
+            <View
+                android:id="@+id/lineBmo"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ivBmo"
+                android:background="#777777" />
+
+            <ImageView
+                android:id="@+id/ivTD"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="70dp"
+                android:layout_below="@+id/lineBmo"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/canada_1" />
+            <View
+                android:id="@+id/lineTD"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ivTD"
+                android:background="#777777" />
+
+
+
+            <ImageView
+                android:id="@+id/ivCIBC"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/lineTD"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/cibc_1" />
+
+
+            <View
+                android:id="@+id/lineCibc"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ivCIBC"
+                android:background="#777777" />
+
+            <ImageView
+                android:id="@+id/ivOtherBank"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/lineTD"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/other_1" />
+
+        </LinearLayout>
+    </ScrollView>-->
+
+
+</RelativeLayout>

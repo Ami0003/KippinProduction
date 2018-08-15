@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/account_wallet_bg"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/finance"
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+
+
+        <ImageView
+
+            android:id="@+id/ivKippinAcc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/reconcile_block_height"
+            android:layout_marginLeft="@dimen/reconcile_margin_LR"
+            android:layout_marginRight="@dimen/reconcile_margin_LR"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onAccountClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/horizontal_reconcile_bank_statement" />
+
+        <ImageView
+            android:id="@+id/ivKippinWallet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/reconcile_block_height"
+            android:layout_marginLeft="@dimen/reconcile_margin_LR"
+            android:layout_marginRight="@dimen/reconcile_margin_LR"
+            android:layout_marginTop="@dimen/reconcile_block_margin_verticle"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onWalletClick"
+            android:src="@drawable/reconcile_credit_card_statement_orange" />
+
+
+        <ImageView
+            android:id="@+id/ivKippinIncomeStatement"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/reconcile_block_height"
+            android:layout_marginLeft="@dimen/reconcile_margin_LR"
+            android:layout_marginRight="@dimen/reconcile_margin_LR"
+            android:layout_marginTop="@dimen/reconcile_block_margin_verticle"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onKippinIncomeStatementClick"
+            android:src="@drawable/generate_income_statement_red" />
+    </LinearLayout>
+
+
+</RelativeLayout>

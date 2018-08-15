@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context="com.kippinretail.PurchasedGiftcardsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fdfaf7f7"
+        android:orientation="vertical">
+        <!-- ===========HEADER SECTION=================== -->
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:id="@+id/fragment"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_txtMercahntName"
+            android:layout_below="@id/fragment"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/txtMerchantName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="#d9182ed1"
+                />
+        </LinearLayout>
+        <ListView
+            android:id="@+id/listGiftCards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnImport"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:dividerHeight="1dp"
+            android:divider="@color/listDivider"
+            android:layout_below="@id/layout_txtMercahntName">
+
+        </ListView>
+        <Button
+            android:id="@+id/btnImport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#e7423c"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Import One of My Physical card"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+           android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold">
+
+        </Button>
+        </RelativeLayout>
+
+</RelativeLayout>

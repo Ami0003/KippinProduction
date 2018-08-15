@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:id="@+id/centerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/fragment"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="300dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/fragment"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_10"
+                android:background="@drawable/logo" />
+
+
+            <ImageView
+                android:id="@+id/keepInAccounts"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/reconcile_block_height"
+                android:layout_marginLeft="@dimen/reconcile_margin_LR"
+                android:layout_marginRight="@dimen/reconcile_margin_LR"
+                android:layout_marginTop="@dimen/dp_10"
+                android:src="@drawable/horizontal_account">
+
+                <!--<ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/ten_dp"
+                    android:layout_marginLeft="@dimen/twenty_dp"
+                    android:layout_marginRight="@dimen/twenty_dp"
+                    android:layout_marginTop="@dimen/ten_dp"
+                    android:src="@drawable/icon_wallet" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/arrow_best_buy"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:text="@string/kipin_in_accounts"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/btn_text_size" />
+
+
+                <ImageView
+                    android:id="@+id/arrow_best_buy"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/fifteen_dp"
+                    android:src="@drawable/arrow" />-->
+
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/keepInvoice"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/reconcile_block_height"
+                android:layout_marginLeft="@dimen/reconcile_margin_LR"
+                android:layout_marginRight="@dimen/reconcile_margin_LR"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/horizontal_invoice">
+
+                <!--<ImageView
+                    android:id="@+id/imageViewInvoice"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/ten_dp"
+                    android:layout_marginLeft="@dimen/twenty_dp"
+                    android:layout_marginRight="@dimen/twenty_dp"
+                    android:layout_marginTop="@dimen/ten_dp"
+                    android:src="@drawable/invoice_logo" />
+
+                <TextView
+                    android:id="@+id/textView_invoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/arrow_invoice"
+                    android:layout_toRightOf="@+id/imageViewInvoice"
+                    android:text="@string/kipin_in_voice"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/btn_text_size" />
+
+
+                <ImageView
+                    android:id="@+id/arrow_invoice"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/fifteen_dp"
+                    android:src="@drawable/arrow" />-->
+
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/keepInWallet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/reconcile_block_height"
+                android:layout_marginLeft="@dimen/reconcile_margin_LR"
+                android:layout_marginRight="@dimen/reconcile_margin_LR"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/horizontal_rewards"
+                android:visibility="visible">
+
+                <!--<ImageView
+                    android:id="@+id/ivCartPetsmart"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/ten_dp"
+                    android:layout_marginLeft="@dimen/twenty_dp"
+                    android:layout_marginRight="@dimen/twenty_dp"
+                    android:layout_marginTop="@dimen/ten_dp"
+                    android:src="@drawable/icon_account" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/arrow_pest_mart"
+                    android:layout_toRightOf="@+id/ivCartPetsmart"
+                    android:text="@string/kipin_in_wallet"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/btn_text_size" />
+
+
+                <ImageView
+                    android:id="@+id/arrow_pest_mart"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/fifteen_dp"
+                    android:src="@drawable/arrow" />-->
+
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

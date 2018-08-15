@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:id="@+id/fragment"
+            android:layout_marginBottom="@dimen/dp_16"
+            />
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <GridView
+                android:id="@+id/gridView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:horizontalSpacing="@dimen/grip_view_spacing"
+                android:numColumns="auto_fit"
+                android:scrollingCache="false"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/grip_view_spacing" />
+        </LinearLayout>
+
+</LinearLayout>

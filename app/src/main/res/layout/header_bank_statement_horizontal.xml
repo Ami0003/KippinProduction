@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/horizontalScrollView1"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:overScrollMode="never"
+android:paddingRight="-12dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52.50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/bank_statement_headers"
+                    android:layout_width="@dimen/bank_statement_element_width"
+                    android:layout_height="match_parent"
+                    android:text="@string/bank_statement_description" />
+
+
+                <TextView
+                    style="@style/bank_statement_headers"
+                    android:layout_width="@dimen/bank_statement_element_width"
+                    android:layout_height="match_parent"
+                    android:text="@string/bank_statement_debit" />
+
+
+                <TextView
+                    style="@style/bank_statement_headers"
+                    android:layout_width="@dimen/bank_statement_element_width"
+                    android:layout_height="match_parent"
+                    android:text="@string/bank_statement_credits" />
+
+
+                <TextView
+                    style="@style/bank_statement_headers"
+                    android:layout_width="@dimen/bank_statement_element_width"
+                    android:layout_height="match_parent"
+                    android:text="@string/bank_statement_amount" />
+                <Spinner
+                    android:id="@+id/spStatus"
+                    style="@style/bank_statement_headers"
+                    android:layout_width="1px"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginRight="-1dp"
+                    android:entries="@array/status"
+                    android:text="@string/bank_statement_status"
+                    android:visibility="invisible" />
+
+
+                <RelativeLayout
+                    android:layout_width="@dimen/bank_statement_element_width"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvStatus"
+                        style="@style/bank_statement_headers"
+                        android:layout_width="@dimen/bank_statement_element_width"
+                        android:layout_height="match_parent"
+                        android:text="@string/bank_statement_status" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="-45dp"
+                        android:src="@drawable/arrow_icon_status" />
+                </RelativeLayout>
+                <TextView
+                    style="@style/bank_statement_headers"
+                    android:layout_width="@dimen/bank_statement_element_width"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+

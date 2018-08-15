@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:background="@drawable/roundwhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleDialog"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/blue"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Revenue"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_14"
+            android:textStyle="bold" />
+
+
+
+        <ListView
+            android:id="@+id/listView_revenue"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

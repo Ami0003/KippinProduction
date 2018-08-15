@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dashboard"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivBack1"
+        android:visibility="gone"
+        android:layout_width="@dimen/connection_topbar_back_width"
+        android:layout_height="@dimen/connection_topbar_back_height"
+        android:layout_marginTop="6.5dp"
+        android:paddingLeft="@dimen/padding_topbar_lr"
+        android:src="@drawable/back_arrow" />
+
+    <RelativeLayout
+        android:id="@+id/topOptions"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/fragment"
+        android:background="#222222"
+        android:paddingTop="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.5dp"
+            android:text="Kippin Finance"
+            android:textColor="#999999"
+            android:textSize="17.5sp" />
+
+        <TextView
+            android:id="@+id/tvUserMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="30dp"
+            android:drawableLeft="@drawable/user"
+            android:gravity="center"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:text=" gagan "
+            android:textColor="#999999"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ivOptionMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/menu" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topOptions"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="21dp"
+        android:gravity="bottom"
+        android:text="Dashboard"
+        android:textColor="#333333"
+        android:textSize="26sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dashboard"
+        android:layout_alignTop="@+id/dashboard"
+        android:layout_toEndOf="@+id/dashboard"
+        android:layout_toRightOf="@+id/dashboard"
+        android:gravity="bottom"
+        android:paddingBottom="3dp"
+        android:text="/User"
+        android:textColor="#999999"
+        android:textSize="17.5sp" />
+
+    <TextView
+        android:id="@+id/overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dashboard"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:gravity="bottom"
+        android:text="Overview"
+        android:textColor="#999999"
+        android:textSize="26sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/overview"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="15dp"
+        android:background="#999999" />
+
+    <ImageView
+        android:id="@+id/ivUploadBankStatement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/bank_statements" />
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/ivUploadBankStatement"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlMenuOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topOptions"
+        android:background="#222222"
+        android:paddingBottom="20dp"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#383838">
+
+        </View>
+
+        <TextView
+            android:id="@+id/tvUploadBankStatement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:gravity="bottom"
+            android:onClick="comingSoon"
+            android:drawableLeft="@drawable/upload_icon"
+            android:text=" Upload Bank Statement"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvStatementReconcilation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvUploadBankStatement"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:drawableLeft="@drawable/currency"
+            android:gravity="bottom"
+            android:onClick="comingSoon"
+            android:text=" Statement Reconcilation"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvStatementReconcilation"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:drawableLeft="@drawable/currency"
+            android:gravity="bottom"
+            android:onClick="comingSoon"
+            android:text=" Report"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llMenuUserOptions"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topOptions"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="12dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvEditProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="comingSoon"
+            android:text=" Edit Profile"
+            android:drawableLeft="@drawable/user_pic"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:clickable="true"
+            android:drawableLeft="@drawable/change_password"
+            android:onClick="comingSoon"
+            android:text=" Change Password"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</RelativeLayout>

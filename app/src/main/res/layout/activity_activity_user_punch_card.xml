@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kippinretail.ActivityUserPunchCard">
+
+    <!-- ===========HEADER SECTION=================== -->
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:id="@+id/fragment"
+        android:layout_marginBottom="@dimen/dp_16"
+        />
+
+    <!-- ===========CONTAINER SECTION=================== -->
+    <ScrollView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/layout_myPointCards"
+                android:layout_width="match_parent"
+                android:layout_height="82.25dp"
+                android:layout_marginBottom="16.50dp"
+                android:background="@drawable/red_btn">
+
+                <ImageView
+                    android:id="@+id/imageviewViewMerchantVouchers"
+                    android:layout_width="62.25dp"
+                    android:layout_height="62.25dp"
+                    android:layout_marginLeft="14.50dp"
+                    android:layout_marginRight="16.25dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_points" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/imageviewViewMerchantVouchers"
+                    android:text="My Point Cards"
+                    android:maxLines="2"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/btn_text_size" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_myPunchCards"
+                android:layout_width="match_parent"
+                android:layout_height="82.25dp"
+                android:layout_marginBottom="16.50dp"
+                android:background="@drawable/blue_btn">
+
+                <ImageView
+                    android:id="@+id/imageviewenableMerchantVouchers"
+                    android:layout_width="62.25dp"
+                    android:layout_height="62.25dp"
+                    android:layout_marginLeft="14.50dp"
+                    android:layout_marginRight="16.25dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_points" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/imageviewenableMerchantVouchers"
+                    android:text="My Punch Cards"
+                    android:textStyle="bold"
+                    android:maxLines="2"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/btn_text_size" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_getNewPunchCards"
+                android:layout_width="match_parent"
+                android:layout_height="82.25dp"
+                android:layout_marginBottom="16.50dp"
+                android:background="@drawable/red_btn">
+
+                <ImageView
+                    android:id="@+id/iv_getNewPunchCard"
+                    android:layout_width="62.25dp"
+                    android:layout_height="62.25dp"
+                    android:layout_marginLeft="14.50dp"
+                    android:layout_marginRight="16.25dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_points" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/iv_getNewPunchCard"
+                    android:text="Get New Punch Cards"
+                    android:maxLines="2"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/btn_text_size" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

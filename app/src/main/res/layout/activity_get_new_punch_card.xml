@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context="com.kippinretail.GetNewPunchCard">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_16" />
+
+    <GridView
+        android:id="@+id/gvPunchCards"
+        android:layout_weight="1"
+        android:numColumns="2"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </GridView>
+
+    <Button
+        android:id="@+id/btnGetPunchCard"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_10"
+        android:text="@string/get_punch_card"
+        android:background="@color/red"
+        />
+
+</LinearLayout>

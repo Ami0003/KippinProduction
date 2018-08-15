@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:clickable="true"
+    android:focusable="true"
+
+    android:orientation="vertical">
+
+    <!-- ===========HEADER SECTION=================== -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTopbarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:text="TERMS AND CONDITIONS"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:id="@+id/lalayout_ivBack"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:clickable="true"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="@dimen/dp_33"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_l" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_ivHome"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:clickable="true"
+            android:visibility="visible"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/txt_accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACCEPT"
+                android:clickable="true"
+                android:onClick="acceptCondition"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:textColor="#007AFF"
+                android:textSize="17dp"
+                android:padding="6dp"
+
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <WebView
+        android:id="@+id/wv_terms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:text="text"
+        android:padding="10dp"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_below="@+id/topBar"/>
+
+</RelativeLayout>

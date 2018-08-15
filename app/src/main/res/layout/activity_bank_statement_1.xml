@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+
+    android:orientation="vertical">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:id="@+id/fragment"
+        android:background="@color/white"
+        />
+
+    <include
+        android:id="@+id/layout_analyticsSearch"
+        android:layout_below="@id/fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        layout="@layout/layout_analytics_search">
+    </include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/bank_statement_headers"
+                    android:layout_width="0dp"
+                    android:layout_height="57.50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#3275B5"
+                    android:gravity="center"
+                    android:textStyle="normal"
+                    android:textSize="@dimen/btn_text_size"
+                    android:text="Gift Card\nTemplate" />
+
+                <TextView
+                    style="@style/bank_statement_headers"
+                    android:layout_width="0dp"
+                    android:layout_height="57.50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#3275B5"
+                    android:gravity="center"
+                    android:textStyle="normal"
+                    android:textSize="@dimen/btn_text_size"
+                    android:text="Value of Gift\nCard" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:listSelector="@color/app_bg"
+                android:overScrollMode="never">
+
+            </ListView>
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="57.50dp"
+            android:background="@color/white"></View>
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:paddingRight="-12dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="57.50dp"
+                    android:orientation="horizontal">
+
+                    <!-- <TextView
+                         style="@style/bank_statement_headers"
+                         android:layout_width="@dimen/bank_statement_element_width"
+                         android:layout_height="match_parent"
+                         android:text="@string/bank_statement_description" />-->
+
+
+                    <TextView
+                        style="@style/bank_statement_headers"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/btn_text_size"
+                        android:layout_width="@dimen/bank_statement_element_width"
+                        android:layout_height="match_parent"
+                        android:text="Gift Card\nCount" />
+
+
+                    <TextView
+                        style="@style/bank_statement_headers"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/btn_text_size"
+                        android:layout_width="@dimen/bank_statement_element_width"
+                        android:layout_height="match_parent"
+                        android:text="Country" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/hListView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:listSelector="@color/app_bg"
+
+                    android:overScrollMode="never"></ListView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

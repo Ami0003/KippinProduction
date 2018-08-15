@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComparePriceActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:id="@+id/fragment"></fragment>
+    <RelativeLayout
+        android:layout_below="@id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg"
+        android:paddingRight="5dp"
+        android:paddingLeft="@dimen/five_dp_margin"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/item_icon"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"/>
+        <RelativeLayout
+            android:id="@+id/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/icon">
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="120dp"
+                android:layout_height="35.75dp"
+                android:text="SEARCH"
+                android:layout_centerVertical="true"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="@drawable/drawable_search_btn"
+                android:layout_margin="6dp"
+                android:layout_alignParentRight="true"
+                >
+            </Button>
+            <EditText
+                android:id="@+id/txtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/edittext_compareprice"
+                android:layout_toLeftOf="@id/btnSearch"
+                android:layout_margin="6dp"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:textColorHint="@color/grey"
+                android:hint="Insert item"
+                android:textSize="13sp"
+                />
+
+        </RelativeLayout>
+
+
+
+           <!-- <LinearLayout
+                android:id="@+id/layout_listHeader"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#E74C3C"
+                android:layout_below="@id/layout_search"
+                android:orientation="horizontal"
+                android:paddingRight="5dp"
+                android:paddingLeft="@dimen/five_dp_margin"
+
+                >
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Item"
+
+                        android:textSize="@dimen/fifteen_dp"
+                        android:maxLines="2"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="#ffffff"/>
+
+                <TextView
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Merchant"
+
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="@dimen/fifteen_dp"
+                    android:maxLines="2"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_height="match_parent"
+                    android:text="Size"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="@dimen/fifteen_dp"
+                    android:textStyle="bold"
+                    android:maxLines="2"
+                    android:padding="3dp"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_height="match_parent"
+                    android:text="Price"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="@dimen/fifteen_dp"
+                    android:textStyle="bold"
+                    android:maxLines="2"
+                    android:padding="3dp"
+                    android:textColor="#ffffff"/>
+
+            </LinearLayout>
+        <ListView
+            android:id="@+id/priceList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:layout_below="@id/layout_listHeader">
+
+        </ListView>-->
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:layout_below="@id/layout_search"
+            android:paddingRight="-12dp">
+
+            <LinearLayout
+                android:id="@+id/layout_listHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52.50dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/charity_statement_headers"
+                        android:layout_width="@dimen/bank_statement_element_width"
+                        android:layout_height="match_parent"
+                        android:textSize="15dp"
+                        android:text="Item" />
+
+
+                    <TextView
+                        android:id="@+id/tv_amount"
+                        style="@style/charity_statement_headers"
+                        android:layout_width="@dimen/bank_statement_element_width"
+                        android:layout_height="match_parent"
+                        android:textSize="15dp"
+                        android:text="Merchant" />
+
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        style="@style/charity_statement_headers"
+                        android:layout_width="@dimen/bank_statement_element_width"
+                        android:layout_height="match_parent"
+                        android:textSize="15dp"
+                        android:text="Size" />
+
+                    <TextView
+                        style="@style/charity_statement_headers"
+                        android:layout_width="@dimen/bank_statement_element_width"
+                        android:layout_height="match_parent"
+                        android:textSize="15dp"
+                        android:text="Price"/>
+                    <TextView
+                        style="@style/charity_statement_headers"
+                        android:layout_width="@dimen/bank_statement_element_width"
+                        android:layout_height="match_parent"
+                        android:textSize="15dp"
+                        android:text="City"/>
+                    <TextView
+                        style="@style/charity_statement_headers"
+                        android:layout_width="@dimen/bank_statement_element_width"
+                        android:layout_height="match_parent"
+                        android:textSize="15dp"
+                        android:text="Location"/>
+
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/priceList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>

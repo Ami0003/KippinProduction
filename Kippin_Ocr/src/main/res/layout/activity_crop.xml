@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kippinretail.CropActivity">
+    <!-- ===========HEADER SECTION=================== -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTopbarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:text="MERCHANT LIST"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:id="@+id/lalayout_ivBack"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:clickable="true"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="@dimen/dp_33"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_l" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_ivsave"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/connection_topbar_size"
+            android:clickable="true"
+            android:visibility="visible"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textStyle="bold"
+                android:layout_marginRight="15dp"
+
+                android:layout_centerInParent="true"
+                android:padding="3dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.lyft.android.scissors.CropView
+        android:id="@+id/crop_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cropviewViewportRatio="1.6"
+        app:cropviewViewportOverlayPadding="22dp"
+        android:scaleType="matrix"
+        android:layout_below="@id/topBar"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        />
+</RelativeLayout>

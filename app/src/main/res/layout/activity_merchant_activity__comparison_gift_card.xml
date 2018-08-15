@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kippinretail.MerchantActivity_ComparisonGiftCard">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:id="@+id/fragment"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout_row1"
+        android:layout_below="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/txt_month1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Select Month"
+            android:background="@drawable/select"
+
+
+
+            android:layout_marginRight="5dp"
+
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/txt_year1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select Year"
+            android:gravity="center"
+            android:background="@drawable/select"
+
+
+            android:layout_marginLeft="5dp"
+
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_row2"
+        android:layout_below="@+id/layout_row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/txt_month2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Select Month"
+            android:background="@drawable/select"
+
+
+
+            android:layout_marginRight="5dp"
+
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/txt_year2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select Year"
+            android:gravity="center"
+            android:background="@drawable/select"
+
+
+
+
+            android:layout_marginLeft="5dp"
+
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_row3"
+        android:layout_below="@+id/layout_row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/txt_month3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="Select Month"
+            android:background="@drawable/select"
+
+
+
+            android:layout_marginRight="5dp"
+
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/txt_year3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select Year"
+            android:gravity="center"
+            android:background="@drawable/select"
+
+
+
+            android:layout_marginLeft="5dp"
+
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_compare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/layout_row3">
+        <Button
+            android:id="@+id/btn_compare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/selector_button"
+            android:text="Compare"
+           android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/layout_compare"
+        android:background="#0187D3"
+        android:id="@+id/selectMonth"
+        android:layout_width="match_parent"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_leftArraow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/arrow_left"/>
+        <TextView
+            android:id="@+id/txt_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+           android:layout_centerHorizontal="true"
+            android:textSize="@dimen/dialog_text_size"
+            android:singleLine="true"
+            android:text="Select Month"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_toLeftOf="@+id/iv_rightArraow"
+            android:layout_toRightOf="@+id/iv_leftArraow"/>
+        <ImageView
+            android:id="@+id/iv_rightArraow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow_right"/>
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/selectMonth"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_below="@id/layout_row1">
+    <ListView
+        android:id="@+id/list_month1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:background="@color/white"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <ListView
+        android:id="@+id/list_year1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:layout_marginLeft="5dp"
+        android:visibility="invisible"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>-->
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/layout_row2">
+        <ListView
+            android:id="@+id/list_month2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:layout_marginRight="5dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+
+        </ListView>
+        <ListView
+            android:id="@+id/list_year2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:visibility="invisible"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>-->
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/layout_row3">
+        <ListView
+            android:id="@+id/list_month3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:background="@color/white"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content">
+
+        </ListView>
+        <ListView
+            android:id="@+id/list_year3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:visibility="invisible"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>-->
+
+
+
+</RelativeLayout>

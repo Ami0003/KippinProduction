@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kippinretail.LoyalityProgramSignUp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fdfaf7f7"
+        android:orientation="vertical">
+        <!-- ===========HEADER SECTION=================== -->
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            >
+            <RelativeLayout
+                android:id="@+id/backArrowLayout"
+                android:layout_width="50dp"
+                android:layout_height="50dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/arrow_l"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MERCHANT LIST"
+                    android:textColor="#000000"
+                    android:textStyle="normal"
+                    android:padding="5dp"
+                    android:textSize="17sp"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_txtMercahntName"
+            android:layout_below="@id/header"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="3"
+                android:textSize="16sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:text="Please Select the merchant you want to opt in vouchers"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

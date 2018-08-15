@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+
+                android:src="@drawable/icon_placeholder"
+                app:civ_border_color="@color/blue"
+                app:civ_border_width="2.0dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/fifty_dp"
+                    android:layout_height="50dp"
+                    android:padding="@dimen/ten_dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_username" />
+
+                <EditText
+                    android:id="@+id/firstNameEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="50dp"
+                    android:background="@null"
+                    android:hint="First Name"
+                    android:imeActionLabel="Next"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/fifty_dp"
+                    android:layout_height="50dp"
+                    android:padding="@dimen/ten_dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_username" />
+
+                <EditText
+                    android:id="@+id/lastNameEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="50dp"
+                    android:background="@null"
+                    android:hint="Last Name"
+                    android:imeActionLabel="Next"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/fifty_dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten_dp"
+                    android:src="@drawable/icon_age" />
+
+                <Spinner
+                    android:id="@+id/ageSpinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fifty_dp"
+                    android:background="@null"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/fifty_dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten_dp"
+                    android:src="@drawable/icon_gender" />
+
+                <Spinner
+                    android:id="@+id/genderSpinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/fifty_dp"
+                    android:background="@null"
+                    android:prompt="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/fifty_dp"
+                    android:layout_height="@dimen/fifty_dp"
+                    android:padding="@dimen/ten_dp"
+                    android:src="@drawable/icon_dob" />
+
+                <EditText
+                    android:id="@+id/dobEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/fifty_dp"
+                    android:background="@null"
+                    android:focusableInTouchMode="false"
+                    android:hint="Date of birth"
+                    android:padding="@dimen/ten_dp"
+                    android:singleLine="true"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/fifty_dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten_dp"
+                    android:src="@drawable/icon_location" />
+
+                <EditText
+                    android:id="@+id/ed_streetAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/fifty_dp"
+                    android:background="@null"
+                    android:hint="Street Address"
+                    android:editable="false"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/fifty_dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten_dp"
+                    android:src="@drawable/icon_location" />
+
+                <EditText
+                    android:id="@+id/ed_city"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/fifty_dp"
+                    android:background="@null"
+                    android:hint="City"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/fifty_dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten_dp"
+                    android:src="@drawable/icon_location" />
+
+                <EditText
+                    android:id="@+id/locationEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/fifty_dp"
+                    android:background="@null"
+                    android:hint="Location"
+                    android:imeActionLabel="Next"
+                    android:lines="4"
+                    android:maxLines="4"
+                    android:minLines="4"
+                    android:padding="@dimen/ten_dp"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:scrollbars="vertical"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/fifty_dp"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/ten_dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_phone" />
+
+                <EditText
+                    android:id="@+id/phoneNumberEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/fifty_dp"
+                    android:background="@null"
+                    android:hint="Phone Number"
+                    android:imeActionLabel="Done"
+                    android:inputType="phone"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:background="@drawable/background_button"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Update"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/sixteen_dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/changePasswordButton"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dip"
+                android:background="#3195DB"
+                android:elevation="5dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="change password"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/sixteen_dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_margin="@dimen/twenty_dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

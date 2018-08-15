@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_white_grey">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:id="@+id/listForClassification"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/bottomLayout"
+            android:layout_below="@+id/fragment"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/white_background"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#FAFAFA"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/dp_10"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_accept"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginTop="5dp"
+                    android:background="#5CB900"
+                    android:gravity="center"
+                    android:text="Accept"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_14"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/btn_Cancel"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/blue_background"
+                    android:gravity="center"
+                    android:text="Reject"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_14"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/red_background"
+                    android:gravity="center"
+                    android:text="Delete"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_14" />
+
+
+            </LinearLayout>
+
+            <!-- <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginBottom="@dimen/dp_5">
+
+
+
+                 <Button
+                     android:id="@+id/btn_convert"
+                     android:layout_width="80dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     android:layout_marginLeft="@dimen/dp_5"
+                     android:layout_marginTop="5dp"
+                     android:background="@drawable/black_background"
+                     android:gravity="center"
+                     android:text="Convert"
+                     android:textAllCaps="false"
+                     android:textColor="@color/white"
+                     android:textSize="@dimen/dp_16"
+                     android:textStyle="bold" />
+
+             </LinearLayout>
+ -->
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

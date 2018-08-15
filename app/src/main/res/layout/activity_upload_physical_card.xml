@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.kippinretail.UploadPhysicalCardActivity">
+
+    <!-- ===========HEADER SECTION=================== -->
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_16" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/fragment"
+        android:padding="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_cardIcon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/user"
+                app:civ_border_color="@color/blue"
+                app:civ_border_width="2.0dp" />
+
+            <EditText
+                android:id="@+id/txtCompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edittext_compareprice"
+                android:hint="Company Name"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnFrontImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/drawable_dialog_button"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Choose front image of card"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnbackImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/drawable_dialog_button"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Choose back image of card"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnUploadImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/drawable_dialog_button"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="upload physical card"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

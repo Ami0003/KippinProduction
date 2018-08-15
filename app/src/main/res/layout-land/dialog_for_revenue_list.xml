@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:padding="@dimen/dp_10"
+        android:layout_gravity="center"
+        android:background="@drawable/roundwhite"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:paddingLeft="@dimen/dp_10"
+                android:text="Item Name: 01"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/dp_15" />
+
+
+            <ImageView
+                android:id="@+id/ivCrossButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="@dimen/dp_10"
+                android:src="@drawable/close_dialog_btn" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5"
+            android:paddingLeft="@dimen/dp_10"
+            android:text="Please Select Classification"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dp_15" />
+
+
+        <RelativeLayout
+            android:id="@+id/rlClassification"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_20">
+
+            <TextView
+                android:id="@+id/tvClassificationName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/dp_1"
+                android:layout_toLeftOf="@+id/ivArrowCorporationAddress"
+                android:background="@drawable/edittext_background"
+                android:gravity="center_vertical"
+                android:maxLines="5"
+                android:paddingLeft="@dimen/ten_dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:textSize="@dimen/dp_15" />
+
+
+            <ImageView
+                android:id="@+id/ivArrowCorporationAddress"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/_arrow_bg" />
+
+        </RelativeLayout>
+
+        <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+            android:id="@+id/lvClassifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp_22"
+            android:paddingRight="@dimen/dp_22"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:divider="@color/classification_color_divider"
+            android:dividerHeight="1dp"
+            android:drawSelectorOnTop="true"
+            android:fastScrollEnabled="false"
+            android:overScrollMode="never"
+            android:scrollbarStyle="outsideOverlay" />
+
+    </LinearLayout>
+
+</LinearLayout>

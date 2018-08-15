@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kippin.photoPreview.Activity_Photo_Preview">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:scaleType="fitXY"
+
+        android:paddingTop="@dimen/activity_vertical_margin" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="35dp">
+        <TextView
+            android:id="@+id/btnUpload"
+            android:layout_width="@dimen/width_photo_preview"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/upload"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="@drawable/drawable_button"
+
+            android:layout_marginRight="@dimen/_photo_preview_margin"
+            android:textSize="17dp" />
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="@dimen/width_photo_preview"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_photo_preview_margin"
+            android:layout_marginRight="@dimen/_photo_preview_margin"
+            android:background="@drawable/drawable_button"
+
+            android:text="@string/cancel"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+        <TextView
+            android:id="@+id/tvView"
+            android:layout_width="@dimen/width_photo_preview"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_photo_preview_margin"
+            android:layout_marginRight="@dimen/_photo_preview_margin"
+            android:text="View"
+
+            android:gravity="center"
+            android:background="@drawable/drawable_button"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"
+            android:textSize="17dp" />
+        <!--android:text="CLOSE"-->
+        <TextView
+            android:id="@+id/tvClose"
+            android:layout_width="@dimen/width_photo_preview"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_photo_preview_margin"
+            android:layout_marginRight="@dimen/_photo_preview_margin"
+            android:text="Close"
+
+            android:gravity="center"
+            android:background="@drawable/drawable_button"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+        <TextView
+            android:id="@+id/btnDelete"
+            android:layout_width="@dimen/width_photo_preview"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_photo_preview_margin"
+            android:text="@string/delete"
+            android:gravity="center"
+            android:background="@drawable/drawable_button"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

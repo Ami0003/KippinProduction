@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@color/background_dashboard"
+    >
+
+    <ImageView
+        android:layout_width="259dp"
+        android:layout_height="191dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dashboard_logo_margin_top"
+        android:layout_marginBottom="@dimen/dashboard_margin_grid_logo"
+        android:background="@drawable/kippin_accounting_logo" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="21dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="138dp"
+                android:background="@drawable/transaction"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="8dp"
+                android:id="@+id/ivReconcile" />
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="138dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/connection_button_normal"
+                android:id="@+id/ivConnection" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="138dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/upload_dashboard"
+                android:id="@+id/ivCamera" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ivLogout"
+                    android:layout_width="125dp"
+                    android:layout_height="138dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:background="@drawable/logout_normal" />
+
+                <ImageView
+                    android:id="@+id/ivInvoice"
+                    android:layout_width="125dp"
+                    android:layout_height="138dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:background="@drawable/invoice_bg"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

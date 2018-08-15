@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dashboard"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/btnAdd"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:src="@drawable/x_add_account_blue" />
+
+
+
+    <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+        android:id="@+id/stickyConnected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@color/classification_color_divider"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="true"
+        android:fastScrollEnabled="false"
+        android:overScrollMode="never"
+        android:scrollbarStyle="outsideOverlay" />
+
+
+</LinearLayout>

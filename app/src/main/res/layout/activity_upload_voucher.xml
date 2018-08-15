@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:id="@+id/fragment"
+
+        />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/fragment">
+
+
+
+        <!--kippin.developmentopment.ApplicationuUlity.TouchImageView-->
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.kippinretail.ApplicationuUlity.TouchImageView
+                android:id="@+id/voucher_image"
+                android:layout_width="220dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:src="@drawable/icon_placeholder"
+                />
+
+            <EditText
+                android:id="@+id/voucherEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/topheader_height"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Promotion Name"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:textSize="16dp" />
+
+
+
+                <RelativeLayout
+                    android:id="@+id/fromDateRelativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/topheader_height"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edittext_background">
+
+                    <TextView
+                        android:id="@+id/fromDateTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:hint="From Date"
+                        android:paddingLeft="10dp"
+                        android:scrollHorizontally="true"
+                        android:textColor="#000000"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+
+                    <ImageView
+                        android:id="@+id/fromDateImageView"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_calander" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/toDateRelativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/topheader_height"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edittext_background">
+                    <TextView
+                        android:id="@+id/toDateTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:hint="To Date"
+                        android:paddingLeft="10dp"
+                        android:scrollHorizontally="true"
+                        android:textColor="#000000"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+                    <ImageView
+                        android:id="@+id/toDateImageView"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_calander" />
+                </RelativeLayout>
+
+            <Button
+             android:id="@+id/uploadButton"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:layout_alignParentBottom="true"
+             android:layout_margin="10dp"
+             android:background="@drawable/background_button"
+             android:elevation="5dp"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+             android:text="Upload"
+                android:layout_gravity="center_horizontal"
+             android:textColor="@color/white"
+             android:textSize="@dimen/twenty_dp" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+</ScrollView>
+</RelativeLayout>

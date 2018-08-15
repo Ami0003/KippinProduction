@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kippinretail.MerchantActivity_Analytics">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:id="@+id/fragment"
+        />
+    <include
+        android:id="@+id/layout_analyticsSearch"
+        android:layout_below="@id/fragment"
+        android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        layout="@layout/layout_analytics_search">
+    </include>
+    <RelativeLayout
+        android:id="@+id/layout_country"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/layout_analyticsSearch"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/sp_selectPoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/select"
+            android:hint="Select Points"
+            android:inputType="numberDecimal"
+            android:minHeight="@dimen/dp_35"
+            android:paddingLeft="12dp"
+            android:layout_toLeftOf="@+id/searchButtonForRevenue"
+            android:visibility="visible" />
+        <Button
+            android:id="@+id/searchButtonForRevenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_button"
+            android:elevation="5dp"
+            android:text="Search"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/layout_analytics_table_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_country"
+        android:layout_marginTop="15dp"
+        layout="@layout/layout_analytics_table_header">
+    </include>
+
+    <ListView
+
+        android:id="@+id/listForAnalysis"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/layout_analytics_table_header"
+        ></ListView>
+</RelativeLayout>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/fragment"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/login_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="Upload Company logo"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_toLeftOf="@+id/tvStarUserName"
+                        android:background="@drawable/edittext_background"
+                        android:hint="User Name"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/ten_dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/sixteen_dp" />
+
+                    <TextView
+                        android:id="@+id/tvStarUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:text="*"
+                        android:textSize="@dimen/dp_18" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5">
+
+                    <EditText
+                        android:id="@+id/etCompanyname"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_toLeftOf="@+id/tvStar1"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Company Name"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/ten_dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/sixteen_dp" />
+
+                    <TextView
+                        android:id="@+id/tvStar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:text="*"
+                        android:textSize="@dimen/dp_18" />
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/etContactPerson"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Contact Person"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+
+
+                <EditText
+                    android:id="@+id/etMobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Mobile Number"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+
+                <RelativeLayout
+                    android:id="@+id/rlCorporationAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_70"
+                    android:layout_marginTop="@dimen/dp_5">
+
+                    <TextView
+                        android:id="@+id/etCorprationAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/dp_1"
+                        android:layout_toLeftOf="@+id/ivArrowCorporationAddress"
+                        android:background="@drawable/edittext_background"
+                        android:gravity="center_vertical"
+                        android:hint="Corporation Address"
+                        android:paddingLeft="@dimen/ten_dp"
+                        android:scrollbars="vertical"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/sixteen_dp" />
+
+
+                    <ImageView
+                        android:id="@+id/ivArrowCorporationAddress"
+                        android:layout_width="@dimen/dp_40"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_toLeftOf="@+id/tvStar"
+                        android:background="@drawable/_arrow_bg" />
+
+                    <TextView
+                        android:id="@+id/tvStar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="*"
+                        android:textSize="@dimen/dp_18" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvForCorporationAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edittext_background"
+                    android:gravity="center_vertical"
+                    android:maxHeight="80dp"
+                    android:maxLines="5"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp"
+                    android:visibility="gone" />
+
+
+                <RelativeLayout
+                    android:id="@+id/rlShippingAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_70"
+                    android:layout_marginTop="@dimen/dp_5">
+
+                    <TextView
+                        android:id="@+id/etShippingAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/dp_1"
+                        android:layout_toLeftOf="@+id/ivArrowShippingAddress"
+                        android:background="@drawable/edittext_background"
+                        android:gravity="center_vertical"
+                        android:hint="Shipping Address"
+                        android:maxLines="5"
+                        android:paddingLeft="@dimen/ten_dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/sixteen_dp" />
+
+                    <ImageView
+                        android:id="@+id/ivArrowShippingAddress"
+                        android:layout_width="@dimen/dp_40"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_toLeftOf="@+id/tvStar2"
+                        android:background="@drawable/_arrow_bg" />
+
+                    <TextView
+                        android:id="@+id/tvStar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/dp_7"
+                        android:textSize="@dimen/dp_18" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvForShippingAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edittext_background"
+                    android:gravity="center_vertical"
+                    android:maxHeight="80dp"
+                    android:maxLines="5"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp"
+                    android:visibility="gone" />
+
+                <!-- <EditText
+                     android:id="@+id/etTypesofGoods"
+                     android:layout_width="match_parent"
+                     android:layout_height="@dimen/dp_40"
+                     android:layout_marginRight="@dimen/dp_10"
+                     android:layout_marginTop="@dimen/dp_5"
+                     android:background="@drawable/edittext_background"
+                     android:hint="Type of goods/service offered"
+                     android:maxLines="1"
+                     android:paddingLeft="@dimen/ten_dp"
+                     android:textColor="@color/black"
+                     android:textColorHint="@color/light_grey"
+                     android:textSize="@dimen/sixteen_dp" />-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/layTypesofGoods"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvTypesofGoods"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_weight="1"
+                            android:background="@drawable/edittext_background"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:hint="@string/typesoffood"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:paddingRight="@dimen/dp_10"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:textSize="@dimen/fab_margin" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="top|center_horizontal"
+                            android:paddingLeft="5dp"
+                            android:textSize="@dimen/dp_18" />
+
+                    </LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spinner_TypesofGoods"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:dropDownWidth="265dp"
+                        android:scrollbars="none" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5">
+
+                    <EditText
+                        android:id="@+id/etBusinessNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_toLeftOf="@+id/tvStar3"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Business Number"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/ten_dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/sixteen_dp" />
+
+                    <TextView
+                        android:id="@+id/tvStar3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:text="*"
+                        android:textSize="@dimen/dp_18" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/layCurrency"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/currency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_weight="1"
+                            android:background="@drawable/edittext_background"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:hint="@string/trading_currency"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="@dimen/ten_dp"
+                            android:paddingRight="@dimen/dp_10"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:textSize="@dimen/fab_margin" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="top|center_horizontal"
+                            android:paddingLeft="5dp"
+                            android:text="*"
+                            android:textSize="@dimen/dp_18" />
+
+                    </LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spinner_currency"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:dropDownWidth="265dp"
+                        android:scrollbars="none" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginTop="@dimen/dp_5">
+
+                    <EditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/dp_1"
+                        android:layout_toLeftOf="@+id/rlAddButon"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Email"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/ten_dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/sixteen_dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlAddButon"
+                        android:layout_width="@dimen/dp_40"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/tvStar5"
+                        android:background="#D2D2D2">
+
+                        <TextView
+                            android:id="@+id/tvAdd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="+"
+                            android:textSize="@dimen/dp_18" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tvStar5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:text="*"
+                        android:textSize="@dimen/dp_18" />
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+
+                <EditText
+                    android:id="@+id/etComfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Confirm Password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+
+
+                <EditText
+                    android:id="@+id/etWebsite"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Website"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/sixteen_dp" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/check_box_selecter"
+                        android:paddingLeft="8dp"
+                        android:text="@string/terms_condition_first"
+                        android:textColor="@android:color/black"
+                        android:textSize="12dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/textview_term_condition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clickable="true"
+                        android:onClick="onTermCondition"
+                        android:paddingLeft="5dp"
+                        android:text="@string/terms_condition_second"
+                        android:textColor="#3195DB"
+                        android:textSize="12dp"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:text="Mandatory Fields *"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/dp_16"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_Submit"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/red_btn"
+                    android:text="Submit"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

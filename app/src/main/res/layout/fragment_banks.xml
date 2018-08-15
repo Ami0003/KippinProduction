@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_bank_rbc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bank_royal_bank"
+        android:onClick="onRbcClick" />
+
+    <ImageView
+        android:id="@+id/iv_bank_scotia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-1dp"
+        android:layout_toRightOf="@+id/iv_bank_rbc"
+        android:background="@drawable/bank_scotia_bank"
+        android:onClick="onScotiaClick" />
+
+
+    <ImageView
+        android:id="@+id/iv_bank_bmo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_bank_rbc"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/bank_bmo"
+        android:onClick="onBmoClick" />
+
+    <ImageView
+        android:id="@+id/iv_bank_canada_trust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_bank_scotia"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toRightOf="@+id/iv_bank_bmo"
+        android:background="@drawable/bank_canada_trust"
+        android:onClick="onCanadaTrustClick" />
+
+    <ImageView
+        android:id="@+id/iv_bank_cibc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_bank_bmo"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/bank_cibc_logo"
+        android:onClick="onCanadaTrustClick" />
+
+
+</RelativeLayout>

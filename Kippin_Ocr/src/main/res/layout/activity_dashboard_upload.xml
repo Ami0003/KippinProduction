@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dp_25"
+            android:paddingRight="@dimen/dp_25"
+            android:paddingTop="20dp">
+
+
+            <ImageView
+                android:layout_width="@dimen/dp_110"
+                android:layout_height="@dimen/dp_110"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:src="@drawable/bank" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvSelectMonth"
+                    style="@style/select_date_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="30dp"
+                    android:clickable="true"
+                    android:hint="@string/select_month_year"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/dark_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_star"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/icon_star"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+
+            <EditText
+                android:id="@+id/edInsertAccount"
+                style="@style/select_date_et"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:hint="Insert Image/Receipt Amount"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/dark_gray" />
+
+
+            <TextView
+                android:id="@+id/tvUpload"
+                android:layout_width="150dp"
+                android:layout_height="@dimen/dp_52_5"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/x_upload_blue"
+                android:clickable="true"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

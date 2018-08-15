@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backColor"
+    tools:context="com.kippinretail.fragment.FragmentLoyalty">
+
+    <include
+        android:id="@+id/include_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_search"
+        android:background="@color/white"
+       >
+    </include>
+
+    <ListView
+        android:id="@+id/list_data"
+        android:layout_below="@id/include_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#000000"
+        android:dividerHeight="1dp"
+        android:background="@color/white"
+        android:layout_above="@+id/btn_upload"
+        ></ListView>
+</RelativeLayout>

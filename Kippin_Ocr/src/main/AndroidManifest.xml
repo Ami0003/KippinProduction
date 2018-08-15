@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kippin.kippin">
+
+    <uses-sdk
+        android:maxSdkVersion="27"
+        android:minSdkVersion="16"
+        tools:overrideLibrary="com.lyft.android.scissors" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+
+        >
+        <!-- android:icon="@drawable/icon"
+         android:label="@string/app_name"
+         android:largeHeap="true"
+         android:supportsRtl="true"-->
+        <!--android:name="com.kippin.app.Kippin"-->
+        <!--android:theme="@style/AppTheme"-->
+        <activity
+            android:name="com.pack.kippin.Splash"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <!--  <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.pack.kippin.LoginScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.pack.kippin.RegisterScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.activities.WebPdfViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.pack.kippin.AccountWithWallet"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.dashboard.ActivityDashboard"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.connection.ActivityConnection"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.kippin.activities.ActivityDashboardUpload"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.connection.ActivityConnection1"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.kippin.reconcile.ActivityReconcile"
+            android:label="@string/title_activity_activity_reconcile"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.kippin.connectedbankacc.ConnectedBankAccount"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_connected_bank_account"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.pack.kippin.PrivateKeyClass"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.pack.kippin.PerformBook"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
+        <activity
+            android:name="com.pack.kippin.LicenseSelectClass"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.pack.kippin.PaymentDetailsClass"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.pack.kippin.TermsAndCondition"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.bankexpense.StatementClass"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.kippin.bankstatement.ActivityBankStatement"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+
+        <activity
+            android:name="com.kippin.activities.ActivityPreview"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+
+
+        <activity
+            android:name="com.kippin.selectdate.ActivitySelectDate"
+            android:configChanges="screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.ocr.ActivityOCR"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_activity_ocr"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.addCashEntry.ActivityCashEntry"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.selectmonthyear.ActivitySelectMonthYear"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.selectmonthyear.ActivitySelectYear"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.cloudimages.ActivityCloudImages"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+
+        <service
+            android:name="com.kippin.utils.BroadcastService"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.kippin.manualAutomaticStatements.ManualAutomaticStatement"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.ipaulpro.afilechooser.FileChooserActivity"
+            android:enabled="@bool/use_activity"
+            android:exported="true"
+            android:icon="@drawable/ic_chooser"
+            android:label="@string/choose_file">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+      <!--  <provider
+            android:name="com.ianhanniballake.localstorage.LocalStorageProvider"
+            android:authorities="com.ianhanniballake.localstorage.documents"
+            android:enabled="@bool/use_provider"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+            </intent-filter>
+        </provider>-->
+
+        <activity
+            android:name="com.kippin.activities.ActivitySelectDateRange"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.activities.ActivityIncomeStatement"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.kippin.activities.ActivityNewIncomeStatement"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+
+        <activity
+            android:name="com.kippin.activities.ActivityIncomePieChart"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+
+        <activity
+            android:name="com.kippin.photoPreview.Activity_Photo_Preview"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="com.automaticStatement.ActivityAutomaticStatement"
+            android:label="@string/title_activity_automatic_statement"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.automaticStatement.ActivityYodleeLogin" />
+        <activity android:name="com.automaticStatement.ActivityAddAccountSelectBank" />
+        <activity
+            android:name="com.kippin.activities.ActivityGeneralIncomeStatement"
+            android:label="@string/title_activity_activity_general_income_statement"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.automaticStatement.AutomaticBankStatementLoginNew"
+            android:label="@string/title_activity_activity_general_income_statement"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+
+</manifest>

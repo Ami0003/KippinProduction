@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+     
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:paddingBottom="2dip"
+        >
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:layout_gravity="center|center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/wallet_logo"/>
+
+    </LinearLayout>
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:horizontalSpacing="7dp"
+        android:verticalSpacing="@dimen/five_dp_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"  />
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivGiftcard"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_marginTop="47dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:src="@drawable/charity_giftcards"-->
+        <!--/>-->
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivPoints"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="6.67dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:src="@drawable/charity_points"-->
+        <!--/>-->
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivLogout"-->
+        <!--android:layout_marginTop="6.67dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:clickable="true"-->
+        <!--android:onClick="logout"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:src="@drawable/charity_logout"-->
+        <!--/>-->
+
+
+
+</LinearLayout>

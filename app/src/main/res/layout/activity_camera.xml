@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/bottomLayout" />
+
+        <RelativeLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/black">
+
+            <Button
+                android:id="@+id/captureImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/click_icon" />
+
+            <Button
+                android:id="@+id/flash"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dp"
+                android:layout_toLeftOf="@id/captureImage"
+                android:background="@drawable/flash_on"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/flipCamera"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@id/captureImage"
+                android:background="@drawable/swtich_camerra" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/bottomLayout2"
+            android:background="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Retake"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                android:onClick="retake"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Use Photo"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_marginRight="12dp"
+                android:clickable="true"
+                android:textStyle="normal"
+                android:gravity="right"
+                android:onClick="usePhoto"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

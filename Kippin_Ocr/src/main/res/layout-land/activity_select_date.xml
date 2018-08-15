@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dashboard"
+    android:orientation="vertical">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:id="@+id/fragment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="27dp"
+        android:layout_marginTop="8dp"
+        android:background="#f5f5f5"
+        android:paddingLeft="@dimen/dp_25"
+        android:paddingRight="@dimen/dp_25"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:id="@+id/scrollView2" >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="103dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/bank" />
+
+                <TextView
+                    android:id="@+id/tvSelectMonth"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="@string/select_month"
+                    android:textColorHint="@color/dark_gray"
+                    android:textColor="@android:color/black"
+                    style="@style/select_date_et"
+                    />
+
+                <TextView
+                    android:id="@+id/tvSelectYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="@string/select_year"
+                    android:textColorHint="@color/dark_gray"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="@dimen/dp_8"
+                    style="@style/select_date_et"
+                    />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_114"
+                    android:layout_height="@dimen/dp_52_5"
+                    android:src="@drawable/next_button"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="@dimen/dp_40"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/ivNext" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

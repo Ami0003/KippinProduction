@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/fragment"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/bank_statement_headers"
+                            android:layout_width="0dp"
+                            android:layout_height="52.50dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:background="#3275B5"
+                            android:gravity="center"
+                            android:text="Invoice/Quote PDF" />
+
+                        <TextView
+                            style="@style/bank_statement_headers"
+                            android:layout_width="0dp"
+                            android:layout_height="52.50dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:background="#3275B5"
+                            android:gravity="center"
+                            android:text="Invoice/Quote No." />
+
+                    </LinearLayout>
+
+                    <ListView
+                        android:id="@+id/listView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:overScrollMode="never"/>
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never"
+                    android:paddingRight="-12dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="52.50dp"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Invoice/Quote Date" />
+
+                            <TextView
+                                android:id="@+id/tvReportCustomerSupplier"
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Customer" />
+
+                            <Spinner
+                                android:id="@+id/spInvoiceType"
+                                style="@style/bank_statement_headers"
+                                android:layout_width="1px"
+                                android:layout_height="1px"
+                                android:layout_marginLeft="-1dp"
+                                android:layout_marginRight="-1dp"
+                                android:entries="@array/Invoice_type"
+                                android:text="@string/bank_statement_status"
+                                android:visibility="invisible" />
+
+
+                            <RelativeLayout
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvInvoiceType"
+                                    style="@style/bank_statement_headers"
+                                    android:layout_width="@dimen/bank_statement_element_width"
+                                    android:layout_height="match_parent"
+                                    android:text="Invoice Type" />
+
+                                <ImageView
+                                    android:id="@+id/imageViewInvoiceType"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:paddingRight="-70dp"
+                                    android:src="@drawable/arrow_icon_status" />
+                            </RelativeLayout>
+
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Manual JVID"
+                                android:visibility="gone"/>
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Pay JVID"
+                                android:visibility="gone"/>
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Invoice/Quote Amount" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Paid Amount" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Outstanding\nBalance" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Invoice/Quote Age" />
+
+
+                            <Spinner
+                                android:id="@+id/spStatus"
+                                style="@style/bank_statement_headers"
+                                android:layout_width="1px"
+                                android:layout_height="1px"
+                                android:layout_marginLeft="-1dp"
+                                android:layout_marginRight="-1dp"
+                                android:entries="@array/flow_status"
+                                android:text="@string/bank_statement_status"
+                                android:visibility="invisible" />
+
+
+                            <RelativeLayout
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvStatus"
+                                    style="@style/bank_statement_headers"
+                                    android:layout_width="@dimen/bank_statement_element_width"
+                                    android:layout_height="match_parent"
+                                    android:text="Flow Status" />
+
+                                <ImageView
+                                    android:id="@+id/imageView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:paddingRight="-70dp"
+                                    android:src="@drawable/arrow_icon_status" />
+                            </RelativeLayout>
+
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Status" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Method of\nPayment" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:visibility="visible"
+                                android:text="Manual Payment" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:visibility="gone"
+                                android:text="Insert Pay.\nJVID#" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent"
+                                android:text="Pay Via Stripe"
+                                android:visibility="gone" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+                                android:text="Cancel"
+                                android:gravity="right|center_vertical"
+
+                                android:visibility="visible"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="@dimen/bank_statement_element_width"
+
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                style="@style/bank_statement_headers"
+                                android:layout_width="70dp"
+                                android:layout_height="match_parent" />
+
+                        </LinearLayout>
+
+                        <ListView
+                            android:id="@+id/hListView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:overScrollMode="never"></ListView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- <RelativeLayout
+         android:id="@+id/rlPayViaStripe"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:background="#FAFAFA"
+         android:padding="@dimen/dp_10">
+
+         <Button
+             android:id="@+id/btn_PayViaStripe"
+             android:layout_width="@dimen/dp_150"
+             android:layout_height="@dimen/dp_40"
+             android:layout_centerInParent="true"
+             android:layout_gravity="center"
+             android:layout_marginLeft="@dimen/dp_5"
+             android:layout_marginTop="5dp"
+             android:background="@drawable/red_btn"
+             android:gravity="center"
+             android:text="PAY VIA STRIPE"
+             android:textAllCaps="false"
+             android:textColor="@color/white"
+             android:textSize="@dimen/dp_16"
+             android:textStyle="bold" />
+     </RelativeLayout>-->
+
+</RelativeLayout>

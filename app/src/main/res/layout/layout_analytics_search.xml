@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/layout_container_analytics_search"
+        android:layout_width="fill_parent"
+        android:paddingLeft="5dp"
+        android:layout_height="@dimen/topheader_height">
+
+        <RelativeLayout
+            android:id="@+id/fromDateRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/date_bg">
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/fromDateImageView"
+                android:scrollbars="none">
+
+                <TextView
+                    android:id="@+id/fromDateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:hint="From Date"
+                    android:paddingLeft="5dp"
+                    android:ellipsize="end"
+                    android:scrollHorizontally="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="#CCCCCC"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/fromDateImageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_calander" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/toDateRelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/date_bg">
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/toDateImageView"
+                android:scrollbars="none">
+
+                <TextView
+                    android:id="@+id/toDateTextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:hint="To Date"
+                    android:padding="5dp"
+                    android:ellipsize="end"
+                    android:scrollHorizontally="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="#CCCCCC"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+
+                    />
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/toDateImageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_calander" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_searchButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center|center_vertical"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical">
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/selector_button"
+                android:elevation="5dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Search"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

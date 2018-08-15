@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ViewMerchantVoucherActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d9efe8e8"
+        android:orientation="vertical">
+        <!-- ===========HEADER SECTION=================== -->
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:id="@+id/fragment"
+            android:layout_marginBottom="@dimen/dp_16"
+            />
+
+        <include
+            android:id="@+id/include_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_search"
+            android:layout_marginTop="2dp"
+            android:background="@color/white"
+            android:layout_below="@id/fragment"
+            >
+        </include>
+        <ListView
+            android:id="@+id/listMerchantVoucher"
+            android:layout_below="@id/include_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="9dp"
+            android:divider="#000000"
+            android:dividerHeight="1dp"
+            android:background="@color/white"
+
+            >
+
+        </ListView>
+    </RelativeLayout>
+</RelativeLayout>

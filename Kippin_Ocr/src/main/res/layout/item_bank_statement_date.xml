@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bank_statement_element_height"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/ivDate"
+            style="@style/bank_statement_contents"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/view_icon_circular"
+            android:orientation="vertical"
+            android:padding="10dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvDescription"
+            style="@style/bank_statement_contents"
+            android:layout_width="@dimen/bank_statement_element_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="cknn" />
+    </FrameLayout>
+</LinearLayout>

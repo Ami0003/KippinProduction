@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <!--   <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+    <color name="listDivider">#c596a1df</color>
+    <color name="background">#F5F5F5</color>
+    <color name="login_button_clcik">#223b73</color>
+    <color name="login_button_onclick">#2c4a94</color>
+    <color name="white">#ffffff</color>
+    <color name="white_off">#dcdcdc</color>
+    <color name="light_grey">#8e9b9b9b</color>
+
+
+    <color name="black">#000000</color>
+    <color name="dilaog_background_color">#f9f9f9</color>
+    <color name="dilaog_text_color">#6e6e6e</color>
+    <color name="step_in_text_color">#0ebab4</color>
+    <color name="border_edittext">#E0E0E0</color>
+    <color name="divided_color">#C8C7CC</color>
+    <color name="menu_option_textcolor">#ffffff</color>
+    <color name="hint_color">#353A40</color>
+    <color name="edttext_hint_color">#A3A3A3</color>
+    <color name="g_plus">#E53D3C</color>
+    <color name="blue">#1B79BF</color>
+    <color name="image_border">#f80a4ba2</color>
+    <color name="menu_color">#E53D3C</color>
+    <color name="dialog_text_color">#016aa0</color>
+    <color name="regiter_click">#3195DB</color>
+    <color name="regiter_onclick">#1B79BF</color>
+    <color name="red">#E53D3C</color>
+    <color name="grey">#DDDDDD</color>
+    <color name="darkGray">#515151</color>
+    <color name="pressed_color">#b9baba</color>
+    <color name="default_color">#ffffff</color>
+    <color name="frontImageButtonClick">#3195DB</color>
+    <color name="containerColor">#d9efe8e8</color>
+    <color name="b_click">#E53D3C</color>
+    <color name="b_onclick">#E53D3C</color>
+    <color name="blue_title">#1B79BF</color>
+    <color name="logoColor">#000000</color>
+    <color name="light_blue">#3195DB</color>
+    <color name="backColor">#f5f5f5</color>
+    <color name="grid_red">#E53D3C</color>
+    <color name="grid_blue">#3498DB</color>
+    <color name="app_bg">#efe1e4e9</color>
+    <color name="app_bacground">#F2F2F2</color>
+    <color name="app_heading_color">#555555</color>
+    <color name="black_off">#060B06</color>
+    <color name="red_dark">#E53D3C</color>
+    <color name="blue_dark">#1B79BF</color>
+    <color name="orange_color">#EE7223</color>
+    <color name="orange_off">#EE7223</color>
+    <color name="orange_invoice">#EE7223</color>
+    <color name="light_white_grey">#F0F0F0</color>
+    <!-- #d9efe8e8 -->
+
+
+</resources>

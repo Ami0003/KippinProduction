@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="10dp"
+    android:background="@color/white"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layoutOfSubItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imageviewMyPoint"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            />
+        <TextView
+            android:id="@+id/txtMerchant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageviewMyPoint"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="@dimen/btn_text_size" />
+        <Switch
+            android:id="@+id/chbMerchant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:buttonTint="#ffffff"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:id="@+id/iv_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/icon_star"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="hint_size">17dp</dimen>
+    <dimen name="size_more">17dp</dimen>
+    <dimen name="size">17dp</dimen>
+
+    <dimen name="kippin_title">23dp</dimen>
+    <!-- DIMENS-->
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_11">11dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_13">13dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_32_5">32.5dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_38">38dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_46">46dp</dimen>
+    <dimen name="dp_52_5">52.5dp</dimen>
+    <dimen name="dp_53">53dp</dimen>
+    <dimen name="dp_61">61dp</dimen>
+    <dimen name="dp_62_5">62.50dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_114">114dp</dimen>
+    <dimen name="dp_117_5">117.50dp</dimen>
+    <dimen name="dp_142">142dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+
+    <!-- DASHBOARD -->
+    <dimen name="dashboard_logo_margin_top">10dp</dimen>
+    <dimen name="dashboard_width_logo">270dp</dimen>
+    <dimen name="dashboard_height_logo">205dp</dimen>
+    <dimen name="dashboard_width_grid_element">157dp</dimen>
+    <dimen name="dashboard_height_grid_element">157dp</dimen>
+    <dimen name="dashboard_margin_horizontal_grid_element_half">9.5dp</dimen>
+    <dimen name="dashboard_margin_grid_logo">10dp</dimen>
+
+    <dimen name="dashboard_width_grid">120dp</dimen>
+    <dimen name="dashboard_height_grid">130dp</dimen>
+
+    <!-- RECONCILE -->
+    <dimen name="rad_concile_corners">4dp</dimen>
+    <dimen name="reconcile_margin_LR">18.00dp</dimen>
+    <dimen name="reconcile_block_height">90.00dp</dimen>
+    <dimen name="reconcile_block_margin_verticle">9dp</dimen>
+
+    <!-- RECONCILE Bank Acc-->
+    <dimen name="reconcile_bank_acc_view_icon">@dimen/dp_45</dimen>
+
+
+    <!-- CONNECTION  -->
+    <dimen name="connection_topbar_size">@dimen/dp_40</dimen>
+    <dimen name="connection_topbar_back_width" >@dimen/dp_32_5</dimen>
+    <dimen name="connection_topbar_back_height" >@dimen/dp_32_5</dimen>
+    <dimen name="padding_topbar_lr" >@dimen/dp_16</dimen>
+
+    <!-- KIPPIN- ACCOUNT-->
+    <dimen name="kippin_acc_bank_selection_height">@dimen/dp_52_5</dimen>
+    <dimen name="kippin_acc_bank_padding_lr">@dimen/dp_18</dimen>
+    <dimen name="kippin_acc_bank_ts_title">@dimen/dp_13</dimen>
+    <dimen name="kippin_acc_bank_selector_height">@dimen/dp_32_5</dimen>
+    <dimen name="kippin_acc_bank_item_height">@dimen/dp_46</dimen>
+
+
+    <!-- Bank Statement-->
+    <dimen name="bank_statement_element_width">@dimen/dp_117_5</dimen>
+    <dimen name="bank_statement_element_height">@dimen/dp_42</dimen>
+
+    <!-- COMMON-->
+
+    <dimen name="size_logout" >@dimen/dp_30</dimen>
+
+    <!--perform-->
+    <dimen name="edittext_width_dp">255dp</dimen>
+    <dimen name="edittext_landscap_width_dp">450dp</dimen>
+    <dimen name="text_dime_width">215dp</dimen>
+    <dimen name="text_dime_landscap_width">410dp</dimen>
+    <dimen name="spinner_dropdown">460dp</dimen>
+    <dimen name="estric_size">25dp</dimen>
+
+
+    <!--payment book-->
+    <dimen name="payment_width_dp">235dp</dimen>
+    <dimen name="payment_landscap_width_dp">440dp</dimen>
+
+    <!--cloud img-->
+    <dimen name="cloud_img_width">135dp</dimen>
+    <dimen name="cloud_img_height">135dp</dimen>
+    <dimen name="dp_42">42dp</dimen>
+    <dimen name="dp_148">148dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_33">33dp</dimen>
+    <dimen name="dp_44">44dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+
+    <dimen name="dialog_textview_textsize">16dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="btn_text_size">15dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="width_photo_preview">90dp</dimen>
+    <dimen name="_photo_preview_margin">13dp</dimen>
+    <dimen name="ocr_btn_text_size">17dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+
+</resources>

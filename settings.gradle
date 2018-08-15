@@ -1,0 +1,4 @@
+include ':app', ':Kippin_Ocr', ':PinnedSectionListView', ':aFileChooser', ':simple-crop-image-lib', ':google-play-services_lib'
+include ':touchImageView', ':library',':SpinnerDatePickerLib',':zBarScannerLibrary'
+include 'cropper'
+

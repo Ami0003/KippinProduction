@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#8cd9d5d5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="#ffffff"
+            android:layout_marginLeft="5dp">
+
+            <ImageView
+                android:id="@+id/voucherimage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:src="@drawable/gift" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_voucherDetail"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/forwardArraorLayout"
+            android:layout_toRightOf="@+id/layout_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtVoucherName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVoucherValidation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+               android:layout_marginBottom="3dp"
+
+                android:textSize="14sp"
+                android:layout_alignParentBottom="true"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/forwardArraorLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+            <!--<ImageView-->
+                <!--android:id="@+id/iv_star"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:src="@drawable/icon_star"-->
+                <!--android:visibility="gone"-->
+                <!--/>-->
+            <TextView
+                android:id="@+id/txt_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:visibility="visible"
+                android:textColor="@color/red"/>
+            <ImageView
+                android:id="@+id/imageForwardArrow"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="7dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/_arrow_bg"
+                android:padding="3dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

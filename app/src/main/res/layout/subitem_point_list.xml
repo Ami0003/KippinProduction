@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_listHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:orientation="horizontal"
+        android:visibility="visible"
+      >
+
+
+
+            <TextView
+                android:id="@+id/txtFriendName"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:padding="3dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="Kippin Users"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/txtMerchantName"
+                android:layout_width="0dp"
+                android:layout_weight="0.85"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="Merchants"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+
+
+
+            <TextView
+                android:id="@+id/txtPoints"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:layout_marginRight="10dp"
+                android:ems="3"
+                android:padding="3dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:singleLine="true"
+                android:text="Points"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+            <!--<ImageView-->
+                <!--android:id="@+id/btn_accept"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:src="@drawable/icon_applicable"-->
+                <!--android:layout_weight="0.5"-->
+
+                <!--android:scaleType="fitXY"-->
+
+                <!--android:gravity="center_horizontal"-->
+                <!--android:layout_gravity="center_horizontal|center_vertical"-->
+
+                <!--android:visibility="visible"-->
+              <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/btn_accept"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/icon_applicable"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:layout_gravity="center_horizontal|center_vertical"-->
+
+            <!--android:visibility="visible"-->
+            <!--/>-->
+
+   <!--     <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:ems="3"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />-->
+        <TextView
+            android:id="@+id/btn_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_applicable"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:text=""
+            android:textSize="12dp"
+            android:visibility="visible"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+
+            android:textColor="@android:color/white"
+            android:paddingTop="@dimen/dp_2"
+            android:background="@drawable/txt_btn"
+            android:paddingBottom="@dimen/dp_2"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

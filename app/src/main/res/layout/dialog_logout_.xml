@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:splitMotionEvents="false">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_50"
+         android:background="@drawable/dialog_background_color"
+        android:splitMotionEvents="false">
+
+        <LinearLayout
+            android:id="@+id/rl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:splitMotionEvents="false">
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/login_logo" />
+
+
+            <TextView
+                android:id="@+id/titleMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/five_dp_margin"
+                android:gravity="center"
+                android:lineSpacingExtra="5dp"
+                android:maxHeight="400dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Kippin"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/five_dp_margin"
+                android:gravity="center"
+                android:lineSpacingExtra="5dp"
+                android:maxHeight="400dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/darkGray"
+                android:textSize="@dimen/dialog_text_size" />
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/white_off"></View>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnNO"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="#BEBEBE"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                     android:text="Cancel"
+                    android:alpha="0.5"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                <View
+                    android:layout_width="1.2dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:visibility="visible"></View>
+
+
+                <Button
+                    android:id="@+id/btnYES"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="#BEBEBE"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:text="YES"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/connection_topbar_size"
+    android:background="@android:color/white"
+    android:paddingBottom="5dp"
+    android:paddingRight="@dimen/padding_topbar_lr">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="@dimen/connection_topbar_back_width"
+        android:layout_height="@dimen/connection_topbar_back_width"
+        android:paddingLeft="@dimen/padding_topbar_lr"
+        android:padding="4dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/ivLogout"
+        android:layout_width="@dimen/size_logout"
+        android:layout_height="@dimen/size_logout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="5dp"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:id="@+id/tvTopbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivBack"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+         />
+
+</RelativeLayout>

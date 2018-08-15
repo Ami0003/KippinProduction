@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pointsLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/row_layout_height"
+    android:background="#F5F5F5"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical|left"
+        android:maxLines="3"
+        android:padding="10dp"
+        android:textColor="#040404"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical|left"
+        android:maxLines="2"
+        android:padding="10dp"
+        android:textColor="#040404"
+        android:textSize="13dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tvEmpNum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:padding="10dp"
+        android:textColor="#040404"
+        android:textSize="13dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tvInvoiceNum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:padding="10dp"
+        android:textColor="#040404"
+        android:textSize="13dp"
+        android:typeface="sans" />
+    <TextView
+        android:id="@+id/tvActivity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:padding="10dp"
+        android:textColor="#040404"
+        android:textSize="13dp"
+        android:typeface="sans" />
+
+
+</LinearLayout>
+
+
+    <!--<LinearLayout--><!--android:layout_width="fill_parent"--><!--android:layout_height="wrap_content"--><!--android:background="@color/blue_title"--><!--android:gravity="center_vertical"--><!--android:orientation="horizontal">-->
+
+    <!--<TextView--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_weight="2"--><!--android:singleLine="true"--><!--android:padding="10dp"--><!--android:text="Date"--><!--android:textColor="@color/white"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+
+    <!--<TextView--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_weight="1"-->
+
+    <!--android:padding="10dp"--><!--android:singleLine="false"--><!--android:text="Points"--><!--android:textColor="@color/white"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--<TextView--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_weight="1"--><!--android:singleLine="false"--><!--android:padding="10dp"--><!--android:text="Emo no."--><!--android:textColor="@color/white"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--<TextView--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_weight="1"--><!--android:padding="10dp"--><!--android:singleLine="false"--><!--android:text="Invoice no."--><!--android:textColor="@color/white"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+
+    <!--</LinearLayout>-->

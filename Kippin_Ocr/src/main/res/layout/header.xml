@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.kippin.views.UnderlineTextView
+        android:id="@+id/tvType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:gravity="center"
+        android:background="#ff0099cc"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dp_14" />
+
+    <com.kippin.views.UnderlineTextView
+        android:id="@+id/tv_Type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:gravity="left"
+        android:background="#ff0099cc"
+        android:visibility="gone"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dp_18" />
+
+    <View
+        android:id="@+id/vLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@color/dark_gray"
+        android:visibility="gone" />
+
+    <!--<se.emilsjolander.stickylistheaders.sample.views.UnderlineTextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|left"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:visibility="gone"
+        android:textStyle="bold" />-->
+</LinearLayout>

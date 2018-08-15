@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!--  Single List Item Design -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_background">
+
+
+    <ImageView
+        android:id="@+id/ivEdit"
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/dp_5"
+        android:src="@drawable/action_pencil" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/ivEdit"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_5">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.3"
+            android:gravity="center_vertical"
+            android:padding="5dip"
+            android:textColor="#1896E0"
+            android:textSize="14dip"
+            android:textStyle="normal"></TextView>
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="5dip"
+            android:textColor="#1896E0"
+            android:textSize="14dip"
+            android:textStyle="normal"></TextView>
+    </LinearLayout>
+</RelativeLayout>

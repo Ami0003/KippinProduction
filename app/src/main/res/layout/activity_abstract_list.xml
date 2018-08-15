@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".En">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bacground"
+        android:orientation="vertical">
+        <!-- ===========HEADER SECTION=================== -->
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.kippinretail.fragment.FragmentTopbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <include
+            android:id="@+id/include_search"
+            layout="@layout/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment"
+            android:layout_marginTop="2dp"
+            android:background="@color/white"></include>
+
+        <ListView
+            android:id="@+id/list_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_upload"
+            android:layout_below="@id/include_search"
+            android:background="@color/white"
+            android:divider="@drawable/drawavle_divider"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/drawable_list">
+
+        </ListView>
+
+        <include
+            android:id="@+id/layout_cardDetail"
+            layout="@layout/layout_carddetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn_upload"
+            android:layout_below="@id/include_search"
+            android:visibility="gone">
+
+        </include>
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textSize="16dp"
+            android:visibility="gone"></Button>
+
+
+    </RelativeLayout>
+</RelativeLayout>

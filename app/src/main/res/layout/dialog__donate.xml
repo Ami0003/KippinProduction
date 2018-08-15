@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/mainll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment"
+        android:orientation="vertical"
+        android:paddingBottom="2dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:src="@drawable/wallet_logo" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/mainll"
+        android:layout_margin="@dimen/twenty_dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center"
+            android:text="Please select donation method"
+            android:textColor="@color/black"
+            android:textSize="@dimen/lmc_text_size" />
+
+        <RelativeLayout
+            android:id="@+id/donateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/titleText"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:background="@drawable/x_donate_money">
+
+            <!-- <ImageView-->
+            <!--     android:id="@+id/imageView"
+                 android:layout_width="@dimen/lmc_width"
+                 android:layout_height="@dimen/lmc_height"
+                 android:layout_centerVertical="true"
+                 android:layout_margin="@dimen/twenty_dp"
+                 android:src="@drawable/merchant_icon" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerVertical="true"
+                 android:layout_toLeftOf="@+id/arrow_best_buy"
+                 android:layout_toRightOf="@+id/imageView"
+                 android:text="@string/donate_money"
+                 android:textColor="@android:color/white"
+                 android:textSize="@dimen/lmc_text_size"
+                 android:textStyle="normal" />
+
+
+             <ImageView
+                 android:id="@+id/arrow_best_buy"
+                 android:layout_width="20dp"
+                 android:layout_height="30dp"
+                 android:layout_alignParentRight="true"
+                 android:layout_centerVertical="true"
+                 android:layout_marginRight="@dimen/fifteen_dp"
+                 android:src="@drawable/arrow" />-->
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/donateGiftCardLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/donateLayout"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:background="@drawable/x_donate_gift_cards">
+
+            <!--<ImageView
+                android:id="@+id/ivCartPetsmart"
+                android:layout_width="@dimen/lmc_width"
+                android:layout_height="@dimen/lmc_height"
+                android:layout_margin="@dimen/twenty_dp"
+                android:src="@drawable/gift_btn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/arrow_pest_mart"
+                android:layout_toRightOf="@+id/ivCartPetsmart"
+                android:text="@string/donate_giftcard"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/lmc_text_size"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:id="@+id/arrow_pest_mart"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fifteen_dp"
+                android:src="@drawable/arrow" />-->
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cancelLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/donateGiftCardLayout"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:background="@drawable/blue_btn"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView_charity"
+                android:layout_width="@dimen/lmc_width"
+                android:layout_height="@dimen/lmc_height"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/twenty_dp"
+                android:src="@drawable/btn_cancell" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/arrow_ch_buy"
+                android:layout_toRightOf="@+id/imageView_charity"
+                android:text="@string/cancel"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/lmc_text_size"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:id="@+id/arrow_ch_buy"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fifteen_dp"
+                android:src="@drawable/arrow" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/account_wallet_bg">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:id="@+id/fragment" />
+    <LinearLayout
+        android:layout_below="@+id/fragment"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/reconcile_block_height"
+            android:gravity="center"
+            android:src="@drawable/horizontal_reconcile_bank_statement"
+            android:layout_marginLeft="@dimen/reconcile_margin_LR"
+            android:layout_marginRight="@dimen/reconcile_margin_LR"
+            android:id="@+id/ivKippinAcc" />
+
+        <ImageView
+            android:id="@+id/ivKippinWallet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/reconcile_block_height"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/reconcile_block_margin_verticle"
+            android:src="@drawable/reconcile_credit_card_statement_orange"
+            android:layout_marginLeft="@dimen/reconcile_margin_LR"
+            android:layout_marginRight="@dimen/reconcile_margin_LR"
+             />
+
+
+        <ImageView
+            android:id="@+id/ivKippinIncomeStatement"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/reconcile_block_height"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/reconcile_block_margin_verticle"
+            android:src="@drawable/generate_income_statement_red"
+            android:layout_marginLeft="@dimen/reconcile_margin_LR"
+            android:layout_marginRight="@dimen/reconcile_margin_LR"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

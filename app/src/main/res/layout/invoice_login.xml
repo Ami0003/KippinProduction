@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingBottom="2dip"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:padding="30dp"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/kippin_invoicing_logo"/>
+
+            <!--<ImageView
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/logo" />-->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:id="@+id/linear_email"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_not_edit"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/msg_image"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/user_icon" />
+
+                    <EditText
+                        android:id="@+id/editText_email"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/user_name_or_email"
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/hint_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_passowrd"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/lock_image"
+                        android:layout_width="28dp"
+                        android:layout_height="32dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/lock_not_select" />
+
+                    <EditText
+                        android:id="@+id/editText_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/password_hint"
+                        android:inputType="textPassword"
+                        android:fontFamily="Arial"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/hint_size" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/login_btn"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_bt" />
+
+                <TextView
+                    android:id="@+id/tvInvoiceForgot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:clickable="true"
+                    android:onClick="forgetCallDialog"
+                    android:text="@string/forgot_password"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/hint_size" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/new_here_register"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:onClick="callRegister"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/register_bt" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/lay_back"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:clickable="true">
+        <ImageView
+            android:id="@+id/ivBack1"
+            android:layout_width="@dimen/dp_33"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_l" />
+    </RelativeLayout>
+
+</RelativeLayout>

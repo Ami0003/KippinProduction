@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context="com.kippinretail.ActivityScanLoyaltyCard">
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <ScrollView
+        android:layout_below="@+id/fragment"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Please Scan Loyalty Cards"
+                android:textStyle="normal"
+                android:textSize="19dp"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/txt_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="REDEEM POINTS"
+                android:layout_below="@+id/txt_message"
+                android:textSize="19dp"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/btn_payWithPoints"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:height="@dimen/dp_35"
+                android:background="#0187D3"
+                android:gravity="center"
+                android:layout_below="@+id/txt_heading"
+                android:paddingLeft="12dp"
+                android:text="PAY WITH POINTS"
+                android:clickable="true"
+                android:onClick="payWithPoints"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/inner_btn_text_size" />
+            <!--<EditText-->
+                <!--android:id="@+id/ed_selectPoints"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:height="@dimen/dp_35"-->
+                <!--android:background="@drawable/select"-->
+                <!--android:layout_below="@+id/btn_payWithPoints"-->
+                <!--android:hint="Select Points"-->
+                <!--android:inputType="numberDecimal"-->
+                <!--android:minHeight="@dimen/dp_35"-->
+                <!--android:paddingLeft="12dp"-->
+                <!--android:visibility="gone"-->
+                <!--android:textSize="@dimen/dp_14" />-->
+
+
+            <Spinner
+                android:id="@+id/ed_selectPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_payWithPoints"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/select"
+                android:hint="Select Points"
+                android:inputType="numberDecimal"
+                android:minHeight="@dimen/dp_35"
+                android:paddingLeft="12dp"
+                android:textSize="@dimen/dp_14"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/etCostOfProduct"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/ed_selectPoints"
+                android:background="@drawable/edittext_background"
+                android:hint="Cost of Product/Services"
+                android:inputType="number|numberDecimal"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:visibility="gone"
+                android:paddingLeft="@dimen/ten_dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:textSize="@dimen/dp_14" />
+            <EditText
+                android:id="@+id/etInvoiceNo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"
+                android:layout_below="@+id/etCostOfProduct"
+                android:background="@drawable/edittext_background"
+                android:hint="Reference/Invoice Number"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/ten_dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:textSize="@dimen/dp_14" />
+
+
+            <TextView
+                android:id="@+id/btn_scanLoyaltyCard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:background="#E79300"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:clickable="true"
+                android:onClick="scanLoyaltyCard"
+                android:text="SCAN LOYALTY CARD"
+                android:layout_below="@+id/etInvoiceNo"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/inner_btn_text_size" />
+            <EditText
+                android:id="@+id/ed_loayltyBarcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:background="@drawable/edittext_background"
+                android:layout_below="@+id/btn_scanLoyaltyCard"
+                android:hint="Loyalty card barcode"
+                android:inputType="numberDecimal"
+                android:minHeight="@dimen/dp_35"
+                android:paddingLeft="12dp"
+                android:visibility="gone"
+                android:textSize="@dimen/dp_14" />
+
+                        <TextView
+                android:id="@+id/btn_redeemPoints"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:background="#E73628"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:clickable="true" android:layout_below="@+id/ed_loayltyBarcode"
+                android:onClick="redeemPoints"
+                android:text="REDEEM POINTS"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/inner_btn_text_size" />
+            <TextView
+                android:id="@+id/txt_heading2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="EARN POINTS"
+                android:layout_marginBottom="10dp"
+                android:textSize="19dp"
+                android:layout_below="@+id/btn_redeemPoints"
+
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/btn_earnPoints"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/txt_heading2"
+                android:height="@dimen/dp_35"
+                android:background="#0187D3"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:text="EARN POINTS"
+                android:clickable="true"
+                android:onClick="earnPoints"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/inner_btn_text_size" />
+
+            <EditText
+                android:id="@+id/ed_costOfProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:background="@drawable/edittext_background"
+                android:layout_below="@+id/btn_earnPoints"
+                android:hint="Cost of Product/Services"
+                android:inputType="numberDecimal"
+                android:minHeight="@dimen/dp_35"
+                android:paddingLeft="12dp"
+                android:visibility="gone"
+                android:textSize="@dimen/dp_14" />
+            <EditText
+                android:layout_below="@+id/ed_costOfProduct"
+                android:id="@+id/ed_invoiceNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:background="@drawable/edittext_background"
+                android:hint="Reference/Invoice number"
+                android:singleLine="true"
+                android:minHeight="@dimen/dp_35"
+                android:paddingLeft="12dp"
+                android:visibility="gone"
+                android:textSize="@dimen/dp_14" />
+
+            <TextView
+                android:layout_below="@+id/ed_invoiceNo"
+                android:id="@+id/btn_scanLoyaltyCard1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:background="#E79300"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:clickable="true"
+                android:onClick="scanLoyaltyCard1"
+                android:text="SCAN LOYALTY CARD"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/inner_btn_text_size" />
+            <EditText
+                android:layout_below="@+id/btn_scanLoyaltyCard1"
+                android:id="@+id/ed_earnPointBarcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:background="@drawable/edittext_background"
+                android:hint="Loyalty card barcode"
+                android:textSize="@dimen/dp_14"
+                android:minHeight="@dimen/dp_35"
+                android:paddingLeft="12dp"
+                android:visibility="gone"></EditText>
+
+            <TextView
+                android:layout_below="@+id/ed_earnPointBarcode"
+                android:id="@+id/btn_assignPoints"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:background="#E73628"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:clickable="true"
+                android:onClick="assignPoints"
+                android:text="ASSIGN POINTS"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/inner_btn_text_size" />
+
+            <TextView
+                android:layout_below="@+id/btn_assignPoints"
+                android:id="@+id/txt_heading3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginTop="28dp"
+                android:text="RETRACT POINTS"
+                android:layout_marginBottom="10dp"
+                android:textSize="19dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/btn_scanLoyaltyCard2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/txt_heading3"
+                android:height="@dimen/dp_35"
+                android:background="#E79300"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:text="SCAN LOYALTY CARD"
+                android:clickable="true"
+                android:onClick="scanLoyaltyCard_ReedemPoint"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/inner_btn_text_size" />
+            <EditText
+                android:layout_below="@+id/btn_scanLoyaltyCard2"
+                android:id="@+id/ed_costOfProduct_retract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:singleLine="true"
+                android:background="@drawable/edittext_background"
+                android:hint="Cost of Product/Services"
+                android:inputType="numberDecimal"
+                android:minHeight="@dimen/dp_35"
+                android:paddingLeft="12dp"
+                android:visibility="gone"
+                android:textSize="@dimen/dp_14" />
+            <EditText
+                android:id="@+id/ed_loyaltyCardBarCode_retract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:height="@dimen/dp_35"
+                android:background="@drawable/edittext_background"
+                android:hint="Loyalty card barcode"
+                android:layout_below="@+id/ed_costOfProduct_retract"
+                android:minHeight="@dimen/dp_35"
+                android:singleLine="true"
+                android:paddingLeft="12dp"
+                android:visibility="gone"
+                android:textSize="@dimen/dp_14" />
+
+            <TextView
+                android:id="@+id/btn_retractPoints"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/inner_btn_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="50dp"
+                android:height="@dimen/dp_35"
+                android:background="#E73628"
+                android:gravity="center"
+                android:layout_below="@+id/ed_loyaltyCardBarCode_retract"
+                android:paddingLeft="12dp"
+                android:clickable="true"
+                android:onClick="retractPoints"
+                android:text="RETRACT POINTS"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/inner_btn_text_size" />
+
+            <LinearLayout
+                android:id="@+id/layout_dropdownlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:background="@drawable/border_listview"
+                android:layout_below="@id/ed_selectPoints">
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

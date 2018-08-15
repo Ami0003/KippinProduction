@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/account_wallet_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fragment"
+        android:layout_margin="20dp"
+
+        android:background="@android:color/white">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/wallet_round" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText_cardnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/input_not_edit"
+                    android:hint="@string/card_number"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/hint_size"
+
+                    >
+                    <requestFocus/>
+</EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="#FF0000"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/expirationdate_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:onClick="onExpirationClick"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center_vertical"
+                    android:hint="@string/expiration_date"
+                    android:inputType="textEmailAddress"
+
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/hint_size"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="#FF0000"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText_Security"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_not_edit"
+                    android:hint="@string/security_code"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/hint_size"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="#FF0000"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edittext_namecard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_not_edit"
+                    android:hint="@string/name_on_card"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/hint_size"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="#FF0000"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/mendatory_fields"
+                android:textColor="@color/background_kpin_wallets"
+                android:textSize="@dimen/fab_margin" />
+
+            <ImageView
+                android:id="@+id/pay_btn"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:clickable="true"
+                android:onClick="onPayButtonClick"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/pay_bt" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

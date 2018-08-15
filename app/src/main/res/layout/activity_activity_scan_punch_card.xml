@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kippinretail.ActivityScanPunchCard">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippinretail.fragment.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Scan the barcode of your issued punch card"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/fragment"
+        android:textStyle="normal"
+        android:textSize="19dp"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/black"/>
+
+        <ScrollView
+        android:layout_below="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/ed_barcodeNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+           android:layout_marginBottom="28dp"
+            android:text=""
+            android:height="@dimen/dp_35"
+            android:background="@drawable/edittext_background"
+            android:hint="Punch card Barcode"
+            android:minHeight="@dimen/dp_35"
+            android:paddingLeft="12dp"
+            android:textSize="@dimen/inner_btn_text_size" />
+    <TextView
+        android:id="@+id/btn_scanPunchCard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:height="@dimen/dp_35"
+        android:background="#0187D3"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:text="SCAN PUNCH CARD"
+        android:clickable="true"
+        android:onClick="scanPunchCard"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/inner_btn_text_size" />
+    <TextView
+        android:id="@+id/btn_stampPunchCard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:height="@dimen/dp_35"
+        android:background="#E73628"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:clickable="true"
+        android:onClick="stampPunchCard"
+        android:text="STAMP PUNCH CARD"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/inner_btn_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

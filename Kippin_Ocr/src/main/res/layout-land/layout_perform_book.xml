@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/account_wallet_bg">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.kippin.topbar.FragmentTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fragment"
+        android:paddingBottom="85dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/firstname"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_not_edit"
+                    android:hint="@string/first_name"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/lastname"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_not_edit"
+                    android:hint="@string/last_name"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/mobile_number"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:maxLength="11"
+                    android:background="@drawable/input_not_edit"
+                    android:hint="@string/mobile_number"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layProvince"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/province_text"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+
+                    android:hint="@string/province"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <ImageView
+                    android:id="@+id/image_province"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:background="@drawable/arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_province"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:dropDownWidth="265dp"
+                android:scrollbars="none" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/city"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_not_edit"
+                    android:hint="@string/city"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/postal_code"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_not_edit"
+                    android:maxLength="6"
+                    android:hint="@string/postal_code"
+                    android:inputType=""
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/corporation_address"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/input_not_edit"
+                    android:hint="@string/corporation_address"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/gst_hst"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/input_not_edit"
+
+                    android:hint="@string/gst_hst_number"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/bussiness_number"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/input_not_edit"
+
+                    android:hint="@string/bussiness_number"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/layIndustry"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/industry"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center_vertical"
+                    android:hint="@string/industry"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+
+                    android:paddingRight="@dimen/dp_10"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <ImageView
+                    android:id="@+id/imageview_indutsry"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:background="@drawable/arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_industry"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:layout_marginRight="15dp"
+                android:dropDownWidth="265dp"
+                android:scrollbars="none" />
+
+            <LinearLayout
+                android:id="@+id/laySubIndustry"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/subIndustry"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center_vertical"
+                    android:hint="@string/sub_industry"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+
+                    android:paddingRight="@dimen/dp_10"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <ImageView
+                    android:id="@+id/imageview_subIndutsry"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:background="@drawable/arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_subIndustry"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:clickable="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:dropDownWidth="265dp"
+                android:scrollbars="none" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/company_name"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/input_not_edit"
+                    android:hint="@string/company_name"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layOwnership"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ownership"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center_vertical"
+                    android:hint="@string/ownership"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+
+                    android:paddingRight="@dimen/dp_10"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <ImageView
+                    android:id="@+id/image_ownership"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:background="@drawable/arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_ownership"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginRight="15dp"
+                android:dropDownWidth="265dp"
+                android:scrollbars="none" />
+
+
+            <LinearLayout
+                android:id="@+id/layCurrency"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/currency"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:hint="@string/currency"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="@dimen/dp_10"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <ImageView
+                    android:id="@+id/image_currency"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:background="@drawable/arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_currency"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:dropDownWidth="265dp"
+                android:scrollbars="none" />
+
+            <LinearLayout
+                android:id="@+id/layStartdate"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/startdate"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:hint="@string/date"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="@dimen/dp_10"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <ImageView
+                    android:id="@+id/image_startdate"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:background="@drawable/arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_startdate"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:dropDownWidth="265dp"
+                android:scrollbars="none" />
+
+
+
+            <LinearLayout
+                android:id="@+id/layMonth"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/month"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:hint="@string/month"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="@dimen/dp_10"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <ImageView
+                    android:id="@+id/image_month"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:background="@drawable/arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_month"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:dropDownWidth="265dp"
+                android:scrollbars="none" />
+
+            <LinearLayout
+                android:id="@+id/layYear"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/year"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_not_edit"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:hint="@string/year"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="@dimen/dp_10"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/fab_margin" />
+
+                <ImageView
+                    android:id="@+id/image_year"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:onClick="onArrowClick"
+                    android:background="@drawable/arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:text="*"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/estric_size" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_year"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:dropDownWidth="265dp"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="58dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/mendatory_fields"
+        android:textColor="@color/background_kpin_wallets"
+        android:textSize="@dimen/fab_margin"
+
+        />
+
+    <Button
+
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/selector_button"
+        android:textSize="@dimen/fab_margin"
+        android:id="@+id/payment_proceed"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:onClick="onProceedPaymentClick"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rvIndustrySubIndustry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:clickable="true"
+        android:background="#77000000"
+        >
+
+        <ListView
+            android:layout_centerInParent="true"
+            android:id="@+id/lvIndustrySubIndustry"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            ></ListView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+    <!--
+    </ScrollView>
+    -->
