@@ -1,23 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:16:1-26:12
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:16:1-26:12
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:16:1-26:12
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:16:1-26:12
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:16:1-26:12
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:16:1-26:12
 	package
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:17:11-43
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:17:11-43
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:16:11-69
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:16:11-69
 uses-sdk
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:18:5-42
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:18:5-42
 	android:minSdkVersion
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:18:15-40
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:18:15-40
 application
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:20:5-24:19
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:20:5-24:19
 meta-data#com.google.android.gms.version
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:21:9-23:69
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:23:13-66
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/AndroidManifest.xml:22:13-58
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/AndroidManifest.xml:22:13-58

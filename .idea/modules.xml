@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KippinProduction.iml" filepath="$PROJECT_DIR$/KippinProduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kippin_Ocr/Kippin_Ocr.iml" filepath="$PROJECT_DIR$/Kippin_Ocr/Kippin_Ocr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PinnedSectionListView/PinnedSectionListView.iml" filepath="$PROJECT_DIR$/PinnedSectionListView/PinnedSectionListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpinnerDatePickerLib/SpinnerDatePickerLib.iml" filepath="$PROJECT_DIR$/SpinnerDatePickerLib/SpinnerDatePickerLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aFileChooser/aFileChooser.iml" filepath="$PROJECT_DIR$/aFileChooser/aFileChooser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropper/cropper.iml" filepath="$PROJECT_DIR$/cropper/cropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-crop-image-lib/simple-crop-image-lib.iml" filepath="$PROJECT_DIR$/simple-crop-image-lib/simple-crop-image-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/touchImageView/touchImageView.iml" filepath="$PROJECT_DIR$/touchImageView/touchImageView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zBarScannerLibrary/zBarScannerLibrary.iml" filepath="$PROJECT_DIR$/zBarScannerLibrary/zBarScannerLibrary.iml" />
+    </modules>
+  </component>
+</project>

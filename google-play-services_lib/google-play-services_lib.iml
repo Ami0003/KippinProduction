@@ -15,7 +15,6 @@
           <task>generateDebugSources</task>
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/res" />
         <option name="PROJECT_TYPE" value="1" />
       </configuration>
     </facet>
@@ -47,13 +46,6 @@
       <sourceFolder url="file://$MODULE_DIR$/build-types/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/build-types/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/build-types/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -61,6 +53,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/assets" type="java-resource" />
@@ -89,6 +88,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_and_local_jars_jni" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged-aidl" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged-classes" />
@@ -105,6 +105,6 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 27 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/google-play-services_lib/libs/google-play-services.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/google-play-services_lib/libs/google-play-services.jar:unspecified@jar" level="project" />
   </component>
 </module>

@@ -1,79 +1,79 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:3:7-34
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:3:7-34
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:5:7-32
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:5:7-32
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:4:7-30
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
 uses-sdk
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
-INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
+INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:6:5-8:40
 	android:targetSdkVersion
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:8:9-38
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:7:9-34
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
-		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:7:9-34
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
+		INJECTED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml
 application
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:10:5-23:19
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:10:5-23:19
 	android:label
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:10:48-80
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:10:48-80
 	android:icon
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:10:18-47
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:10:18-47
 activity#com.ortiz.touch.MainActivity
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:11:9-17:20
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:11:9-17:20
 	android:label
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:12:19-51
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:12:19-51
 	android:name
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:11:19-62
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:11:19-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:13:13-16:29
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:13:13-16:29
 action#android.intent.action.MAIN
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:15:17-77
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:15:27-74
 activity#com.ortiz.touch.SingleTouchImageViewActivity
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:18:9-81
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:18:9-81
 	android:name
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:18:19-78
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:18:19-78
 activity#com.ortiz.touch.MirroringExampleActivity
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:19:9-77
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:19:9-77
 	android:name
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:19:19-74
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:19:19-74
 activity#com.ortiz.touch.ViewPagerExampleActivity
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:20:9-77
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:20:9-77
 	android:name
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:20:19-74
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:20:19-74
 activity#com.ortiz.touch.SwitchImageExampleActivity
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:21:9-79
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:21:9-79
 	android:name
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:21:19-76
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:21:19-76
 activity#com.ortiz.touch.SwitchScaleTypeExampleActivity
-ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:22:9-83
+ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:22:9-83
 	android:name
-		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/touchImageView/src/main/AndroidManifest.xml:22:19-80
+		ADDED from /Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/touchImageView/src/main/AndroidManifest.xml:22:19-80

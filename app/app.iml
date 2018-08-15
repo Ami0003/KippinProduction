@@ -49,13 +49,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -63,6 +56,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -70,13 +70,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
@@ -84,6 +77,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
@@ -98,6 +98,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-main-apk-res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifest-checker" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/multi-dex" />
@@ -193,12 +194,12 @@
     <orderEntry type="library" name="Gradle: me.dm7.barcodescanner:zxing-1.9" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-11.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-11.6.0" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/agnihotri/Desktop/KippinProject/Final_Code/KippinProduction/New folder/KippinProductionCode/zBarScannerLibrary/libs/zbar.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-11.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tagmanager-v4-impl-license-11.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-instantapps-license-11.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks-11.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-license-11.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/agnihotri/Desktop/KippinProject/Final_Code/GitClone/KippinProduction/zBarScannerLibrary/libs/zbar.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-maps-license-11.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-plus-11.6.0" level="project" />
@@ -272,12 +273,12 @@
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-identity-11.6.0" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-base-11.6.0" level="project" />
-    <orderEntry type="module" module-name="PinnedSectionListView" />
-    <orderEntry type="module" module-name="aFileChooser" />
-    <orderEntry type="module" module-name="simple-crop-image-lib" />
-    <orderEntry type="module" module-name="Kippin_Ocr" />
+    <orderEntry type="module" module-name="SpinnerDatePickerLib" />
     <orderEntry type="module" module-name="cropper" />
     <orderEntry type="module" module-name="zBarScannerLibrary" />
-    <orderEntry type="module" module-name="SpinnerDatePickerLib" />
+    <orderEntry type="module" module-name="aFileChooser" />
+    <orderEntry type="module" module-name="simple-crop-image-lib" />
+    <orderEntry type="module" module-name="PinnedSectionListView" />
+    <orderEntry type="module" module-name="Kippin_Ocr" />
   </component>
 </module>
