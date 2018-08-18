@@ -6,213 +6,648 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e1fac34-af6c-40d6-9277-b3509490e0f4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_agnihotri_Desktop_KippinProject_Final_Code_GitClone_KippinProduction_Kippin_Ocr_libs_bugsense_3_6_1_jar_unspecified_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_agnihotri_Desktop_KippinProject_Final_Code_GitClone_KippinProduction_Kippin_Ocr_libs_encrypter_jar_unspecified_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_agnihotri_Desktop_KippinProject_Final_Code_GitClone_KippinProduction_Kippin_Ocr_libs_poi_3_7_jar_unspecified_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_agnihotri_Desktop_KippinProject_Final_Code_GitClone_KippinProduction_Kippin_Ocr_libs_universal_image_loader_1_9_5_jar_unspecified_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_agnihotri_Desktop_KippinProject_Final_Code_GitClone_KippinProduction_google_play_services_lib_libs_google_play_services_jar_unspecified_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_agnihotri_Desktop_KippinProject_Final_Code_GitClone_KippinProduction_zBarScannerLibrary_libs_zbar_jar_unspecified_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_exifinterface_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_mediarouter_v7_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_palette_v7_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v13_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_android_sdk_4_26_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_PhilJay_MPAndroidChart_v2_2_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_3_7_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_impl_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_impl_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appinvite_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appinvite_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_awareness_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_awareness_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_drive_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_drive_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fido_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fido_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fitness_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fitness_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_games_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_games_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_identity_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_identity_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_iid_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_iid_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_instantapps_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_instantapps_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_nearby_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_nearby_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_panorama_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_panorama_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_plus_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_plus_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_safetynet_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_safetynet_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_api_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_api_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_v4_impl_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_v4_impl_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wallet_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wallet_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wearable_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wearable_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_6_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_appindexing_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_appindexing_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_config_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_config_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_crash_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_crash_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_dynamic_links_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_dynamic_links_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_common_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_common_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_license_11_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_zxing_core_3_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_6_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lyft_scissors_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_android_1_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_applinks_1_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_tasks_1_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_4_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_2_7_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_9_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_5_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit_retrofit_1_9_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_stripe_stripe_android_1_0_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_stripe_stripe_android_1_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_stripe_stripe_java_1_40_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yalantis_ucrop_2_2_0_native.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_dm7_barcodescanner_core_1_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_dm7_barcodescanner_zxing_1_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy_android_27.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__se_emilsjolander_stickylistheaders_2_1_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__uk_co_chrisjenx_calligraphy_2_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/KippinProduction.iml" />
-      <change beforePath="$PROJECT_DIR$/Kippin_Ocr/Kippin_Ocr.iml" afterPath="$PROJECT_DIR$/Kippin_Ocr/Kippin_Ocr.iml" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/PinnedSectionListView/PinnedSectionListView.iml" afterPath="$PROJECT_DIR$/PinnedSectionListView/PinnedSectionListView.iml" />
-      <change beforePath="$PROJECT_DIR$/SpinnerDatePickerLib/SpinnerDatePickerLib.iml" afterPath="$PROJECT_DIR$/SpinnerDatePickerLib/SpinnerDatePickerLib.iml" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/aFileChooser.iml" afterPath="$PROJECT_DIR$/aFileChooser/aFileChooser.iml" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/buildConfig/release/com/custom/custompro/BuildConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/arch/core/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/arch/lifecycle/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/arch/lifecycle/livedata/core/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/arch/lifecycle/viewmodel/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/support/compat/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/support/coreui/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/support/coreutils/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/support/fragment/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/support/mediacompat/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/android/support/v4/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/com/custom/custompro/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/arch/core/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/arch/lifecycle/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/arch/lifecycle/livedata/core/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/arch/lifecycle/viewmodel/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/compat/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreui/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/coreutils/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/fragment/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/mediacompat/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/android/support/v4/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R$xml.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/custompro/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custom/localstorage/LocalStorageProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/FileChooserActivity$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/FileChooserActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/FileListAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/FileListFragment$Callbacks.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/FileListFragment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/FileLoader$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/FileLoader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/utils/FileUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/utils/FileUtils$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/utils/FileUtils$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/custompro/afilechooser/utils/FileUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/aFileChooser/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseAssets/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-de/values-de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-es/values-es.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ga/values-ga.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-it/values-it.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v19/values-v19.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/release-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/intermediate-jars/debug/res.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/intermediate-jars/release/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/intermediate-jars/release/res.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/javaPrecompile/debug/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/javaPrecompile/release/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/manifests/aapt/release/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/manifests/full/release/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-hdpi-v4/ic_chooser.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-hdpi-v4/ic_file.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-hdpi-v4/ic_folder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-hdpi-v4/ic_provider.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-mdpi-v4/ic_chooser.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-mdpi-v4/ic_file.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-mdpi-v4/ic_folder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-mdpi-v4/ic_provider.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-xhdpi-v4/ic_chooser.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-xhdpi-v4/ic_file.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-xhdpi-v4/ic_folder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-xhdpi-v4/ic_provider.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-xxhdpi-v4/ic_chooser.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-xxhdpi-v4/ic_file.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-xxhdpi-v4/ic_folder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/drawable-xxhdpi-v4/ic_provider.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/layout/file.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-ca/values-ca.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-de/values-de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-es/values-es.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-fr/values-fr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-ga/values-ga.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-it/values-it.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-ko/values-ko.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-pl/values-pl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-ru/values-ru.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-v11/values-v11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values-v19/values-v19.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/packaged_res/release/xml/mimetypes.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/symbols/release/R.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/transforms/mergeJniLibs/release/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aFileChooser/build/outputs/logs/manifest-merger-release-report.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/buildConfig/release/com/theartofdev/edmodo/cropper/BuildConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/arch/core/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/arch/lifecycle/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/arch/lifecycle/livedata/core/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/arch/lifecycle/viewmodel/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/support/compat/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/support/coreui/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/support/coreutils/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/support/exifinterface/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/support/fragment/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/support/graphics/drawable/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/support/graphics/drawable/animated/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/android/support/v7/appcompat/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/generated/source/r/release/com/theartofdev/edmodo/cropper/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/arch/core/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/arch/lifecycle/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/arch/lifecycle/livedata/core/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/arch/lifecycle/viewmodel/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/compat/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreui/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/coreutils/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/exifinterface/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/fragment/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/graphics/drawable/animated/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$anim.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/android/support/v7/appcompat/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/BitmapCroppingWorkerTask$Result.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/BitmapCroppingWorkerTask.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/BitmapLoadingWorkerTask$Result.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/BitmapLoadingWorkerTask.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/BitmapUtils$BitmapSampled.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/BitmapUtils$RotateBitmapResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/BitmapUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImage$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImage$ActivityBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImage$ActivityResult$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImage$ActivityResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageAnimation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageOptions$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageOptions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$CropResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$CropShape.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$Guidelines.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$OnCropImageCompleteListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$OnSetCropOverlayMovedListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$OnSetCropOverlayReleasedListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$OnSetCropWindowChangeListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$OnSetImageUriCompleteListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$RequestSizeOptions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView$ScaleType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropImageView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropOverlayView$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropOverlayView$CropWindowChangeListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropOverlayView$ScaleListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropOverlayView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropWindowHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropWindowMoveHandler$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropWindowMoveHandler$Type.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/CropWindowMoveHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$anim.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$menu.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/classes/release/com/theartofdev/edmodo/cropper/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/cropper/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/cropper/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/cropper/cropper.iml" afterPath="$PROJECT_DIR$/cropper/cropper.iml" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseAssets/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-de/values-de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-es-rGT/values-es-rGT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-he/values-he.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-it/values-it.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ru-rRU/values-ru-rRU.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values-zh/values-zh.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/incremental/release-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/intermediate-jars/debug/res.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/intermediate-jars/release/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/intermediate-jars/release/res.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/javaPrecompile/debug/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/javaPrecompile/release/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/manifests/aapt/release/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/manifests/full/release/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-hdpi-v4/crop_image_menu_flip.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-hdpi-v4/crop_image_menu_rotate_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-hdpi-v4/crop_image_menu_rotate_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-xhdpi-v4/crop_image_menu_flip.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-xhdpi-v4/crop_image_menu_rotate_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-xhdpi-v4/crop_image_menu_rotate_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-xxhdpi-v4/crop_image_menu_flip.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-xxhdpi-v4/crop_image_menu_rotate_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-xxhdpi-v4/crop_image_menu_rotate_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-xxxhdpi-v4/crop_image_menu_flip.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-xxxhdpi-v4/crop_image_menu_rotate_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/drawable-xxxhdpi-v4/crop_image_menu_rotate_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/layout/crop_image_activity.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/layout/crop_image_view.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/menu/crop_image_menu.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-ar/values-ar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-cs/values-cs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-de/values-de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-es-rGT/values-es-rGT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-fr/values-fr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-he/values-he.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-it/values-it.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-ja/values-ja.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-ko/values-ko.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-nb/values-nb.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-nl/values-nl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-pl/values-pl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-ru-rRU/values-ru-rRU.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-vi/values-vi.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values-zh/values-zh.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/packaged_res/release/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/symbols/release/R.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/intermediates/transforms/mergeJniLibs/release/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cropper/build/outputs/logs/manifest-merger-release-report.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/extractedTypedefs/debug/typedefs.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/google-play-services_lib/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/javaPrecompile/debug/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/packaged-classes/debug/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/packaged-classes/debug/libs/google-play-services.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/google-play-services_lib/build/outputs/aar/google-play-services_lib-debug.aar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" afterPath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
       <change beforePath="$PROJECT_DIR$/library/library.iml" afterPath="$PROJECT_DIR$/library/library.iml" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/generated/source/buildConfig/release/eu/janmuller/android/simplecropimage/BuildConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/generated/source/r/release/eu/janmuller/android/simplecropimage/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/BitmapManager$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/BitmapManager$State.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/BitmapManager$ThreadSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/BitmapManager$ThreadStatus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/BitmapManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImage$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImage$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImage$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImage$4$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImage$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImage$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImage$6$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImage$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/CropImageView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/HighlightView$ModifyMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/HighlightView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/ImageViewTouchBase$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/ImageViewTouchBase$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/ImageViewTouchBase$Recycler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/ImageViewTouchBase.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/MonitoredActivity$LifeCycleAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/MonitoredActivity$LifeCycleListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/MonitoredActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/RotateBitmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/Util$BackgroundJob$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/Util$BackgroundJob.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/classes/release/eu/janmuller/android/simplecropimage/Util.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/simple-crop-image-lib/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageReleaseAssets/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/incremental/release-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/intermediate-jars/debug/res.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/intermediate-jars/release/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/intermediate-jars/release/res.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/javaPrecompile/debug/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/javaPrecompile/release/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/manifests/aapt/release/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/manifests/full/release/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/drawable-xhdpi-v4/btn_crop_operator.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/drawable-xhdpi-v4/btn_crop_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/drawable-xhdpi-v4/camera_crop_height.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/drawable-xhdpi-v4/camera_crop_width.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/drawable-xhdpi-v4/ic_rotate_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/drawable-xhdpi-v4/ic_rotate_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/drawable-xhdpi-v4/indicator_autocrop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/drawable/selector_crop_button.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/layout/cropimage.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/layout/main.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/values-cs/values-cs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/packaged_res/release/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/symbols/release/R.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/intermediates/transforms/mergeJniLibs/release/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/build/outputs/logs/manifest-merger-release-report.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/simple-crop-image-lib/simple-crop-image-lib.iml" afterPath="$PROJECT_DIR$/simple-crop-image-lib/simple-crop-image-lib.iml" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/extractedTypedefs/debug/typedefs.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/touchImageView/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/touchImageView/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/touchImageView/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/touchImageView/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/javaPrecompile/debug/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/packaged-classes/debug/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/touchImageView/build/outputs/aar/touchImageView-debug.aar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/touchImageView/touchImageView.iml" afterPath="$PROJECT_DIR$/touchImageView/touchImageView.iml" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/generated/source/buildConfig/release/com/dm/zbar/android/scanner/BuildConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/generated/source/r/release/com/dm/zbar/android/scanner/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/CameraPreview.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/HandleManualInput.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/R$anim.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/ZBarConstants.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/ZBarScannerActivity$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/ZBarScannerActivity$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/classes/release/com/dm/zbar/android/scanner/ZBarScannerActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/zBarScannerLibrary/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/zBarScannerLibrary.iml" afterPath="$PROJECT_DIR$/zBarScannerLibrary/zBarScannerLibrary.iml" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/packageReleaseAssets/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/incremental/release-mergeJniLibs/merge-state" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/debug/jni/armeabi-v7a/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/debug/jni/armeabi-v7a/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/debug/jni/armeabi/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/debug/jni/armeabi/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/debug/jni/x86/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/debug/jni/x86/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/debug/res.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/release/classes.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/release/jni/armeabi-v7a/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/release/jni/armeabi-v7a/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/release/jni/armeabi/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/release/jni/armeabi/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/release/jni/x86/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/release/jni/x86/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/intermediate-jars/release/res.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/javaPrecompile/debug/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/javaPrecompile/release/annotationProcessors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/debug/armeabi-v7a/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/debug/armeabi-v7a/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/debug/armeabi/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/debug/armeabi/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/debug/x86/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/debug/x86/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/release/armeabi-v7a/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/release/armeabi-v7a/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/release/armeabi/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/release/armeabi/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/release/x86/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/jniLibs/release/x86/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/manifests/aapt/release/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/manifests/full/release/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/alpha_fadein.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/animation_from_left.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/animation_from_right.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/animation_to_left.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/animation_to_right.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/fade_in.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/fade_out.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/rotate_left.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/rote_right.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/slide_out_down.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/slide_up_dialog.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/translate_down.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/anim/translate_up.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/drawable-ldpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/drawable-mdpi-v4/drawable_camera.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/drawable-mdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/layout-land/camera_view.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/layout/camera_view.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/packaged_res/release/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/symbols/release/R.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi-v7a/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi-v7a/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/x86/libiconv.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/x86/libzbarjni.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/intermediates/transforms/mergeJniLibs/release/__content__.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zBarScannerLibrary/build/outputs/logs/manifest-merger-release-report.txt" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -229,19 +664,15 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="KippinProduction.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KippinProduction.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -10229,7 +10660,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -10242,6 +10672,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -10432,38 +10863,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
-    <editor active="true" />
     <layout>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37124464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -10478,7 +10908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
